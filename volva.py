@@ -222,7 +222,7 @@ class VolvaMystyczna:
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "Jesteś Völvą - nordycką wieszczką, posiadającą mistyczną wiedzę run i starej magii."},
+                    {"role": "system", "content": "Jesteś Völvą - nordycką wieszczką, posiadającą mistyczną wiedzę run i starej magii. Udzielasz odpowiedzi po Polsku"},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.85,
