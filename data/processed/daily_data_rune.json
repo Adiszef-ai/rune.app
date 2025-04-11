@@ -1,0 +1,410 @@
+{
+    "Ansuz": {
+        "symbol": "ᚨ",
+        "pozycja": 2,
+        "opis_dnia": [
+            "Dziś na Twojej drodze zjawia się Ansuz – runa mądrości, komunikacji i mistycyzmu. Jej obecność zaprasza Cię do pogłębienia swoich myśli i uczuć, a także otwarcia się na nowe sposoby wyrażania siebie. Ansuz przypomina, że słowa mają moc i mogą zarówno budować, jak i niszczyć.",
+            "To idealny czas na refleksję oraz naukę. Może poczujesz potrzebę wyrażenia swoich emocji w twórczy sposób, lub poszukiwania głębszego zrozumienia rzeczywistości. Słuchaj swoich intuicji, one mogą prowadzić Cię do odpowiedzi, których szukasz.",
+            "Pamiętaj, że Twoja wewnętrzna mądrość jest kluczem do odkrywania prawdy. Pozwól sobie na otwartość i ciekawość, a nowe możliwości komunikacyjne na pewno przyjdą do Ciebie."
+        ],
+        "refleksja": "Jak mogę wykorzystać moc słów i komunikacji, aby zbliżyć się do innych i odkryć nowe aspekty swojej prawdy?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Ansuz, spisz trzy ważne myśli lub uczucia, które chciałbyś lub chciałabyś wyrazić.",
+            "myśl_1": "___________________",
+            "myśl_2": "___________________",
+            "myśl_3": "___________________",
+            "refleksja_zadania": "W jaki sposób możesz dzielić się tymi myślami z innymi, aby wzmocnić relacje i zrozumienie?"
+        }
+    },
+    "Algiz": {
+        "symbol": "ᛉ",
+        "pozycja": 3,
+        "opis_dnia": [
+            "Dziś pojawia się Algiz – runa ochrony, bezpieczeństwa i połączenia ze sferami duchowymi. Jej energia wzywa Cię do refleksji nad tym, co naprawdę chroni Cię w codziennym życiu. Algiz to znak, że jesteś otoczony opieką i wsparciem, zwłaszcza ze strony duchowego świata.",
+            "To idealny czas, aby zadbać o swoje granice oraz stan zdrowia – zarówno fizycznego, jak i emocjonalnego. Algiz przypomina, że szanowanie siebie i swoich potrzeb jest kluczem do prawdziwej ochrony. Pozwól sobie na chwilę spokoju i introspekcji.",
+            "Podążaj za swoimi przeczuciami i intuicją, gdyż mogą one prowadzić Cię do przestrzeni, gdzie poczujesz się naprawdę bezpiecznie i swobodnie."
+        ],
+        "refleksja": "Jak mogę wzmocnić swoje poczucie bezpieczeństwa i ochrony w codziennym życiu? Jakie granice muszę wyznaczyć, aby czuć się lepiej?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Algiz, spisz trzy rzeczy, które zapewniają Ci poczucie bezpieczeństwa i ochrony.",
+            "bezpieczeństwo_1": "___________________",
+            "bezpieczeństwo_2": "___________________",
+            "bezpieczeństwo_3": "___________________",
+            "refleksja_zadania": "Jak możesz wzmocnić te źródła ochrony w swoim życiu, aby czuć się bardziej pewnie?"
+        }
+    },
+    "Berkano": {
+        "symbol": "ᛒ",
+        "pozycja": 4,
+        "opis_dnia": [
+            "Berkano to runa narodzin, wzrostu i cyklu życia. Dziś jej energia sprzyja transformacji oraz nowym początków. To idealny czas na nowe projekty, relacje oraz wszystko, co może przynieść radość i spełnienie. Berkano przypomina, że zmiany są częścią naturalnego cyklu życia.",
+            "W tym dniu zwróć szczególną uwagę na to, co najlepiej służy Twojemu rozwojowi. Może to być dobry moment, aby rozważyć rozpoczęcie nowych hobby czy angażowanie się w twórcze działania, które pomogą Ci rozkwitnąć.",
+            "Pamiętaj, że każde nowe nasienie musi być pielęgnowane, aby mogło rosnąć i przynosić owoce. Zaufaj sobie i swojej zdolności do przekształcania marzeń w rzeczywistość."
+        ],
+        "refleksja": "Jakie nowe nasiona mogę zasadzić w swoim życiu, aby przyciągnąć wzrost i spełnienie?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Berkano, spisz trzy nowe inicjatywy lub projekty, które chciałbyś lub chciałabyś rozpocząć.",
+            "projekt_1": "___________________",
+            "projekt_2": "___________________",
+            "projekt_3": "___________________",
+            "refleksja_zadania": "Jak mogę zadbać o te inicjatywy, aby mogły przynieść owoce w przyszłości?"
+        }
+    },
+    "Dagaz": {
+        "symbol": "ᛞ",
+        "pozycja": 5,
+        "opis_dnia": [
+            "Dagaz to runa przełomu, zmiany i przesileń. Dziś przynosi energię nowego początku i pozytywną transformację. Jest to czas, gdy ciemność ustępuje miejsca światłu, a Ty możesz dostrzec nowe możliwości oraz perspektywy.",
+            "Pokonaj swoje obawy i zrób krok w stronę zmian, które pragniesz wprowadzić w swoje życie. Dagaz przypomina, że każdy koniec jest jednocześnie początkiem – otwórz się na nowe wyzwania i przygody.",
+            "Niech ta runa inspiruje Cię do działania! Przekształć swoje marzenia w rzeczywistość i pozwól, aby światło tej runy prowadziło Cię w każdy nowy dzień."
+        ],
+        "refleksja": "Jakie pozytywne zmiany mogę wprowadzić w swoje życie, aby dostrzec nowe możliwości?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Dagaz, spisz trzy zmiany, które chciałbyś lub chciałabyś wprowadzić w swoim życiu.",
+            "zmiana_1": "___________________",
+            "zmiana_2": "___________________",
+            "zmiana_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby te zmiany stały się rzeczywistością?"
+        }
+    },
+    "Ehwaz": {
+        "symbol": "ᛖ",
+        "pozycja": 6,
+        "opis_dnia": [
+            "Ehwaz to runa ruchu, postępu i partnerstwa. Dziś jej energia sprzyja współpracy oraz wspólnym działaniom. Jeśli masz projekt lub cel, który wymaga zespołowego zaangażowania, teraz jest idealny czas, aby zjednoczyć siły z innymi.",
+            "Runa ta przypomina, że prawdziwy postęp często wynika z harmonijnej współpracy i wzajemnego wsparcia. Czasami warto zaufać innym i podjąć wspólne ryzyko.",
+            "Zwróć uwagę na otaczających Cię ludzi. Może ktoś z nich ma do zaoferowania coś cennego, co może wzmocnić Twoje dążenia."
+        ],
+        "refleksja": "Jak mogę współpracować z innymi, aby osiągnąć wspólne cele i stawać się lepszą wersją siebie?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Ehwaz, spisz trzy osoby, z którymi chciałbyś lub chciałabyś współpracować.",
+            "osoba_1": "___________________",
+            "osoba_2": "___________________",
+            "osoba_3": "___________________",
+            "refleksja_zadania": "Jakie wspólne cele możemy osiągnąć razem i jakie kroki mogę podjąć, aby to zrealizować?"
+        }
+    },
+    "Eihwaz": {
+        "symbol": "ᛇ",
+        "pozycja": 7,
+        "opis_dnia": [
+            "Eihwaz to runa wytrwałości, zmiany i transformacji. Dziś przychodzi do Ciebie ze swoją energią odporności i siły. Jej obecność sugeruje, że trudności są częścią drogi do osiągnięcia celów – każda z przeszkód może być nauką, a nie powodem do zniechęcenia.",
+            "Eihwaz przypomina, że jesteś w stanie przetrwać wiele. W obliczu wyzwań, sięgnij po swoją wewnętrzną siłę i zaufaj procesowi, nawet gdy wydaje się trudny. Ta runa wzywa do głębszej refleksji nad tym, co musisz zrezygnować, aby wskoczyć na nową drogę ku lepszemu.",
+            "Pamiętaj, że zmiana jest naturalnym cyklem, a Ty masz moc kierowania swoim życiem."
+        ],
+        "refleksja": "Jakie przeszkody mogę pokonać, aby przekształcić moje życie w coś lepszego? Jakie nauki mogę wynieść z tych doświadczeń?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Eihwaz, spisz trzy trudności, które pragniesz przezwyciężyć.",
+            "trudność_1": "___________________",
+            "trudność_2": "___________________",
+            "trudność_3": "___________________",
+            "refleksja_zadania": "Jakie działania mogę podjąć, aby pokonać te przeszkody i wzmocnić swoją odporność?"
+        }
+    },
+    "Fehu": {
+        "symbol": "ᚠ",
+        "pozycja": 1,
+        "opis_dnia": [
+            "Dziś w Twoim sercu i umyśle zagości Fehu – runa bogactwa i dostatku. Jej symbolika przejawia się w mocy, która przynosi nie tylko materialne zasoby, ale także ducha obfitości i spełnienia. Fehu przypomina, że prawdziwe bogactwo nie polega wyłącznie na posiadaniu, lecz na umiejętności dzielenia się oraz doceniania drobnych radości życia.",
+            "W nadchodzących godzinach, weź głęboki oddech i pozwól sobie spojrzeć na świat przez pryzmat możliwości. Może to być czas, aby zainwestować w siebie – czy poprzez naukę nowych umiejętności, pielęgnację relacji, czy rozwoju pasji. Pamiętaj, że każdy krok w kierunku samorealizacji przybliża Cię do prawdziwego skarbu, którym jest spełnienie.",
+            "Fehu uczy, że bogactwo przychodzi do tych, którzy umieją je przyciągać, ale również do tych, którzy są gotowi działać. Miej zaufanie do swoich umiejętności, a także do intuicji – dziś szukaj inspiracji i otwórz się na nowe możliwości, które mogą pojawić się na Twojej drodze."
+        ],
+        "refleksja": "Jak mogę wykorzystywać swoje talenty i zasoby, aby przyciągnąć więcej obfitości do swojego życia? Gdzie mogę podzielić się tym, co posiadam, aby rozmnożyć radość i dobroć wokół mnie?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Fehu, spisz trzy swoje unikalne talenty lub zasoby.",
+            "talent_1": "___________________",
+            "talent_2": "___________________",
+            "talent_3": "___________________",
+            "refleksja_zadania": "Jak możesz wykorzystać te dary, aby przyciągnąć obfitość do swojego życia i wnieść radość innym?"
+        }
+    },
+    "Gebo": {
+        "symbol": "ᚷ",
+        "pozycja": 8,
+        "opis_dnia": [
+            "Dziś zjawia się Gebo – runa darów, partnerstwa i równowagi. Jej obecność przynosi energię wymiany, pokazując, jak ważne są relacje i współpraca w naszym życiu. Gebo przypomina, że to, co oferujemy innym, wraca do nas w różnorodny sposób.",
+            "To idealny czas na nawiązywanie nowych relacji oraz wzmacnianie istniejących. Może zechcesz docenić osoby wokół siebie, z którymi współpracujesz lub są ważne w Twoim życiu. Wzajemne wsparcie i szczerość stają się najcenniejszymi darami.",
+            "Pamiętaj, że życie to ciągła wymiana – dając, otrzymujesz, a Twoje intencje mają moc wpływania na świat."
+        ],
+        "refleksja": "Jakie relacje w moim życiu wymagają większej uwagi i wsparcia? W jaki sposób mogę wdzięcznie podziękować za dary, które otrzymuję?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Gebo, spisz trzy osoby, którym chciałbyś lub chciałabyś wyrazić wdzięczność.",
+            "osoba_1": "___________________",
+            "osoba_2": "___________________",
+            "osoba_3": "___________________",
+            "refleksja_zadania": "Jak możesz wyrazić swoją wdzięczność w sposób, który odzwierciedli szacunek i miłość do tych osób?"
+        }
+    },
+    "Hagalaz": {
+        "symbol": "ᚺ",
+        "pozycja": 9,
+        "opis_dnia": [
+            "Hagalaz to runa zmiany, chaosu i transformacji. Dziś przynosi ze sobą energię burzy – to czas, aby stawić czoła trudnościom i przeszkodom, które mogą się pojawić. Hagalaz przypomina, że w obliczu chaosu możemy znaleźć nowe możliwości oraz siłę.",
+            "Może spotkasz się z przeciwnościami, jednak to, co wydaje się nagłe i niepożądane, może również prowadzić do oczyszczenia i nowego początku. Przyjmij zmiany i zaufaj, że z każdej burzy wyjdzie jasność.",
+            "Jakkolwiek trudne mogą być okoliczności, zawsze masz możliwość adaptacji i wzmacniania swojej pozycji."
+        ],
+        "refleksja": "Jak mogę wykorzystać nadchodzące wyzwania jako okazje do wzrostu i transformacji? Jakie lekcje mogę wyciągnąć z chaosu?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Hagalaz, spisz trzy przeszkody, które chciałbyś lub chciałabyś przezwyciężyć.",
+            "przeszkoda_1": "___________________",
+            "przeszkoda_2": "___________________",
+            "przeszkoda_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby skutecznie stawić czoła tym przeszkodom i wydobyć z nich pozytywne lekcje?"
+        }
+    },
+    "Ingwaz": {
+        "symbol": "ᛝ",
+        "pozycja": 10,
+        "opis_dnia": [
+            "Ingwaz to runa wewnętrznego wzrostu, płodności i spełnienia. Dziś jej energia sprzyja kończeniu starych cykli i przygotowywaniu się do nowych początków. To czas, aby zrealizować swoje marzenia i cele, które czekają na urzeczywistnienie.",
+            "Ingwaz wzywa do refleksji nad tym, co już osiągnąłeś i co pragniesz przynieść do swojego życia. Twój potencjał jest jak nasienie czekające na wzrost – pamiętaj, aby dać mu odpowiednie warunki do rozwoju.",
+            "Zaufaj swojej intuicji i wykorzystaj dzisiejszy dzień do ustawienia intencji dotyczących przyszłości."
+        ],
+        "refleksja": "Jakie marzenia i cele mogę zrealizować w nadchodzących dniach? Jak mogę przygotować się na nowe początki?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Ingwaz, spisz trzy cele, które chciałbyś lub chciałabyś zrealizować w najbliższym czasie.",
+            "cel_1": "___________________",
+            "cel_2": "___________________",
+            "cel_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby te cele stały się rzeczywistością?"
+        }
+    },
+    "Isa": {
+        "symbol": "ᛁ",
+        "pozycja": 11,
+        "opis_dnia": [
+            "Isa to runa zawieszenia, spokoju i introspekcji. Dziś jej energia sprzyja refleksji i zatrzymaniu się na chwilę, aby zrozumieć, co dzieje się w naszym życiu. To czas, aby spojrzeć na swoje uczucia i myśli bez pośpiechu.",
+            "Isa przypomina, że czasami warto się zatrzymać, aby odnaleźć sens i kierunek swojej drogi. Nie zawsze musisz działać; czasem kluczowe jest słuchanie siebie i obserwacja.",
+            "To doskonały moment na medytację, czytanie lub po prostu bycie obecnym w tu i teraz."
+        ],
+        "refleksja": "Jak mogę wykorzystać dzisiejszy czas na refleksję nad swoimi emocjami i myślami? Jakie nauki mogę wyciągnąć z tej introspekcji?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Isa, spisz trzy rzeczy, które warto rozważyć i przemyśleć.",
+            "refleksja_1": "___________________",
+            "refleksja_2": "___________________",
+            "refleksja_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby wdrożyć w życie nowe zrozumienie, które zdobędę w wyniku tej refleksji?"
+        }
+    },
+    "Jera": {
+        "symbol": "ᛃ",
+        "pozycja": 12,
+        "opis_dnia": [
+            "Jera to runa plonów, cykli i wiecznego ruchu. Dziś jej energia promuje zbiory i nagrody za trud, który włożyłeś w swoje działania. To czas, aby świętować osiągnięcia oraz zrozumieć, że każda praca przynosi rezultaty w odpowiednim czasie.",
+            "Jera przypomina, że życie jest cyklem, a każdy etap przynosi nowe szanse oraz wyzwania. Zaufaj procesowi i pamiętaj, że Twoje wysiłki są wartościowe i przyniosą rezultaty.",
+            "Skup się na tym, co możesz zebrać z aktualnego etapu swojego życia i jakie plany masz na przyszłość."
+        ],
+        "refleksja": "Jakie plony mogę zebrać z pracy, którą wykonałem do tej pory? Czego nauczyłem się w tym cyklu?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Jera, spisz trzy osiągnięcia, które chcesz uczcić.",
+            "osiągnięcie_1": "___________________",
+            "osiągnięcie_2": "___________________",
+            "osiągnięcie_3": "___________________",
+            "refleksja_zadania": "Jak mogę celebrować te osiągnięcia i co planuję robić w przyszłości, aby kontynuować ten cykl?"
+        }
+    },
+    "Kenaz": {
+        "symbol": "ᚲ",
+        "pozycja": 13,
+        "opis_dnia": [
+            "Kenaz to runa inspiracji, kreatywności i ognia. Dziś jej energia zachęca do wyrażania siebie i korzystania z twórczych możliwości, które się przed Tobą otwierają. Kenaz przypomina, że królestwo pomysłów i pasji jest dostępne dla tych, którzy gotowi są podjąć ryzyko.",
+            "To idealny moment na odkrywanie nowych umiejętności lub rozwijanie hobby, które przynosi Ci radość. Stwórz coś, co odzwierciedla Twoją unikalną wizję, a twój ogień wewnętrzny rozbłyśnie w pełni.",
+            "Znajdź pasję, która oświetli Twoją drogę i podziel się nią ze światem!"
+        ],
+        "refleksja": "Jakie twórcze działania mogę podjąć dzisiaj, aby zainspirować siebie i innych? Co budzi we mnie chęć działania?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Kenaz, spisz trzy twórcze projekty, które chciałbyś lub chciałabyś zrealizować.",
+            "projekt_1": "___________________",
+            "projekt_2": "___________________",
+            "projekt_3": "___________________",
+            "refleksja_zadania": "Jak mogę zacząć nad nimi pracować i uruchomić swoją kreatywność?"
+        }
+    },
+    "Laguz": {
+        "symbol": "ᛚ",
+        "pozycja": 14,
+        "opis_dnia": [
+            "Laguz to runa intuicji, płynności i emocji. Dziś jej energia zachęca do podążania za swoimi uczuciami oraz słuchania wewnętrznego głosu. To czas, aby zaufali swoim instynktom i otworzyć się na emocje, które mogą prowadzić do głębszego zrozumienia siebie.",
+            "Laguz przypomina, że życie to nie tylko logiczne myślenie, ale również piękno uczuć i relacji. Pozwól sobie na bycie wrażliwym i otwartym na doświadczenia, jakie niesie życie.",
+            "Przyjmij emocje, które przychodzą i zauważ, jak mogą one kierować Twoim działaniem."
+        ],
+        "refleksja": "Jak mogę lepiej zrozumieć swoje uczucia i intuicję? Co mówi mi moje wnętrze w tej chwili?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Laguz, spisz trzy emocje, które chciałbyś lub chciałabyś zbadać lub wyrazić.",
+            "emocja_1": "___________________",
+            "emocja_2": "___________________",
+            "emocja_3": "___________________",
+            "refleksja_zadania": "Jak mogę wyrazić te emocje w sposób, który przyniesie mi ulgę i zrozumienie?"
+        }
+    },
+    "Mannaz": {
+        "symbol": "ᛗ",
+        "pozycja": 15,
+        "opis_dnia": [
+            "Mannaz to runa człowieka, osobistej tożsamości i współpracy. Dziś przynosi ze sobą przesłanie o wzajemnych połączeniach i relacjach międzyludzkich. To idealny czas, aby zainwestować w swoje bliskie relacje oraz otworzyć się na nowe znajomości.",
+            "Mannaz przypomina, że każdy z nas jest częścią większej całości i że współpraca z innymi jest kluczem do sukcesu. Zwróć uwagę na to, jak możesz wnosić wartość do swoich interakcji i jak wzajemne wsparcie może pomóc w realizacji celów.",
+            "Twoje otwarcie i gotowość do dzielenia się współpracą przyniesie korzyści zarówno Tobie, jak i innym."
+        ],
+        "refleksja": "Jakie relacje mogę wzmocnić dzisiaj? Jak mogę lepiej wspierać innych w ich dążeniach?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Mannaz, spisz trzy osoby, z którymi chciałbyś lub chciałabyś nawiązać głębszą relację.",
+            "osoba_1": "___________________",
+            "osoba_2": "___________________",
+            "osoba_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby stworzyć lepsze połączenie z tymi osobami?"
+        }
+    },
+    "Nauthiz": {
+        "symbol": "ᚾ",
+        "pozycja": 16,
+        "opis_dnia": [
+            "Nauthiz to runa potrzeby, przetrwania i ograniczeń. Dziś jej energia wzywa Cię do refleksji nad trudnościami i barierami, które mogą się pojawić w Twoim życiu. To czas, aby spojrzeć na swoje potrzeby i zastanowić się, co trzeba zrobić, aby je zaspokoić.",
+            "Nauthiz przypomina, że potrzeba zmiany często rodzi się z ograniczeń; nie bój się stanąć w obliczu rzeczywistości i określić, co wymaga zmiany. Czasami trudności mogą pomóc Ci w pełniejszym zrozumieniu własnego potencjału.",
+            "Zaufaj, że ograniczenia są tymczasowe, a Ty masz moc ich przezwyciężenia."
+        ],
+        "refleksja": "Jakie ograniczenia mogę zidentyfikować w swoim życiu, które trzymam na sobie? Jakie potrzeby wymagają natychmiastowej uwagi?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Nauthiz, spisz trzy potrzeby, które musisz zaspokoić, aby poczuć się lepiej.",
+            "potrzeba_1": "___________________",
+            "potrzeba_2": "___________________",
+            "potrzeba_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby zaspokoić te potrzeby i przejść dalej w swoim życiu?"
+        }
+    },
+    "Othala": {
+        "symbol": "ᛟ",
+        "pozycja": 17,
+        "opis_dnia": [
+            "Othala to runa dziedzictwa, tradycji i bezpieczeństwa. Dziś jej energia skłania do refleksji nad korzeniami i tym, co naprawdę ma dla Ciebie znaczenie. To czas, aby docenić swoje pochodzenie oraz to, co posiadasz.",
+            "Othala przypomina, że to, co zostało przekazane przez pokolenia, ma wartość. Pamiętaj, aby dbać o swoje emocjonalne i duchowe skarby oraz związki, które kształtują Twoje życie.",
+            "Zastanów się, jak możesz wnosić wartość do swojej społeczności i tradycji, które cię otaczają."
+        ],
+        "refleksja": "Jakie tradycje i wartości są dla mnie najważniejsze? Jak mogę pielęgnować swoje dziedzictwo?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Othala, spisz trzy rzeczy, z których jesteś dumny związanych z Twoim pochodzeniem.",
+            "dziedzictwo_1": "___________________",
+            "dziedzictwo_2": "___________________",
+            "dziedzictwo_3": "___________________",
+            "refleksja_zadania": "Jak mogę wykorzystać te wartości, aby wzbogacić swoje życie i życie innych?"
+        }
+    },
+    "Perthro": {
+        "symbol": "ᛈ",
+        "pozycja": 18,
+        "opis_dnia": [
+            "Perthro to runa tajemnicy, losu i przeznaczenia. Dziś jest to symbol gry losu oraz otwartości na to, co przynosi życie. Perthro przypomina, że czasami warto zaufać nawet, gdy nie jesteśmy pewni wyniku.",
+            "To idealny moment na podejmowanie ryzyka oraz sprawdzanie granic. Możesz poczuć, że zwracasz się ku nowym doświadczeniom, które mogą przynieść nieoczekiwane rezultaty.",
+            "Zaufaj instynktowi i otwórz się na zmiany, mogą one przynieść nowe możliwości, o jakich nie marzyłeś."
+        ],
+        "refleksja": "Jakie ryzyko mogę podjąć, aby uzyskać nowe doświadczenia? Gdzie muszę zaufać losowi?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Perthro, spisz trzy rzeczy, które chciałbyś lub chciałabyś spróbować, nawet jeśli wyniki są niepewne.",
+            "przygoda_1": "___________________",
+            "przygoda_2": "___________________",
+            "przygoda_3": "___________________",
+            "refleksja_zadania": "Jak mogę przygotować się do podjęcia tych wyzwań i otworzyć się na możliwości?"
+        }
+    },
+    "Raidho": {
+        "symbol": "ᚱ",
+        "pozycja": 19,
+        "opis_dnia": [
+            "Raidho to runa podróży, ruchu i zmiany cyklów. Dziś jej energia zaprasza Cię do działania oraz podejmowania kroków w kierunku swoich celów. Raidho przypomina, że każdy krok, nawet mały, prowadzi Cię ku dalszym osiągnięciom.",
+            "Zastanów się, jak możesz zorganizować swoje działania oraz zaplanować drogę do celu. To również idealny czas, aby przemyśleć ścieżkę, którą podążasz i ewentualnie zmienić kierunek, jeśli czujesz, że szukasz czegoś innego.",
+            "Pamiętaj, że nieznana droga też może być wyjątkowa i wartościowa."
+        ],
+        "refleksja": "Jak mogę lepiej zorganizować swoje działania, aby dążyć do swoich celów? Czy moja obecna droga prowadzi mnie tam, gdzie chcę być?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Raidho, spisz trzy zachowania lub działania, które chcesz wprowadzić, aby realizować swoje cele.",
+            "działanie_1": "___________________",
+            "działanie_2": "___________________",
+            "działanie_3": "___________________",
+            "refleksja_zadania": "Jak mogę wdrożyć te zmiany i kontynuować swoją podróż?"
+        }
+    },
+    "Sowilo": {
+        "symbol": "ᛋ",
+        "pozycja": 20,
+        "opis_dnia": [
+            "Sowilo to runa słońca, energii i zwycięstwa. Dziś jej energia ma moc przynoszenia optymizmu oraz radości. To doskonały czas, aby świętować swoje osiągnięcia i skupić się na pozytywach w życiu.",
+            "Sowilo przypomina, że Twoje marzenia są osiągalne i możemy je realizować, gdy kierujemy się pozytywną energią. Zaufaj sobie i swoim umiejętnościom, wykorzystując tę moc do działania.",
+            "Dziś stawiaj sobie wyzwania i daj sobie przyzwolenie na świętowanie oraz cieszenie się życiem!"
+        ],
+        "refleksja": "Jak mogę wykorzystać pozytywną energię w swoim życiu? Co przynosi mi radość i spełnienie?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Sowilo, spisz trzy rzeczy, które przynoszą Ci radość i spełnienie.",
+            "rzecz_1": "___________________",
+            "rzecz_2": "___________________",
+            "rzecz_3": "___________________",
+            "refleksja_zadania": "Jak mogę włączyć te radości w swoje codzienne życie, aby zwiększyć swoją pozytywną energię?"
+        }
+    },
+    "Thurisaz": {
+        "symbol": "ᚦ",
+        "pozycja": 21,
+        "opis_dnia": [
+            "Thurisaz to runa ochrony, siły i wyzwania. Dziś jej energia może wzywać Cię do stawiania czoła trudnościom i obrony swoich granic. To czas, aby zdefiniować, co dla Ciebie ważne i jakie możesz podjąć działania, aby uchronić to, co masz.",
+            "Thurisaz przypomina, że czasami jest potrzebna siła, aby wykroczyć poza przeszkody. Zastosuj swoją moc obronną, aby przeciwdziałać negatywnym wpływom.",
+            "Nie bój się stawać w obronie siebie i tych, których kochasz. Twoja zdolność do zmierzenia się z trudnościami jest kluczem do ochrony tego, co dla Ciebie istotne."
+        ],
+        "refleksja": "Jakie granice muszę postawić, aby chronić siebie i swoje wartości? Jak mogę zyskać pewność w obliczu wyzwań?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Thurisaz, spisz trzy obszary, które wymagają Twojej obrony lub zmiany.",
+            "obszar_1": "___________________",
+            "obszar_2": "___________________",
+            "obszar_3": "___________________",
+            "refleksja_zadania": "Jakie kroki mogę podjąć, aby skutecznie wprowadzić te zmiany i chronić to, co ważne?"
+        }
+    },
+    "Tiwaz": {
+        "symbol": "ᛏ",
+        "pozycja": 22,
+        "opis_dnia": [
+            "Tiwaz to runa odwagi, honoru i poświęcenia. Dziś jej energia wzywa Cię do działania w imię wyższych wartości oraz walki o to, co jest dla Ciebie znaczące. To czas na wykazanie się odwagą i determinacją w dążeniu do celów.",
+            "Tiwaz przypomina, że nie unikasz przeszkód, ale stawiasz czoła przeciwnościom z odwagą i honorem. Twoje wysiłki i determinacja przyniosą rezultaty oraz szacunek, zarówno od siebie, jak i innych.",
+            "Podejmij decyzje, które są zgodne z Twoimi wartościami, i walcz o to, w co wierzysz."
+        ],
+        "refleksja": "Jakie wartości są dla mnie najważniejsze, które chcę reprezentować w swoim życiu? Co mogę zrobić, aby wyrazić swoją determinację?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Tiwaz, spisz trzy działania, które możesz podjąć w imię swoich wartości.",
+            "działanie_1": "___________________",
+            "działanie_2": "___________________",
+            "działanie_3": "___________________",
+            "refleksja_zadania": "Jak mogę wykazać się odwagą i determinacją w dążeniu do tych działań?"
+        }
+    },
+    "Uruz": {
+        "symbol": "ᚢ",
+        "pozycja": 23,
+        "opis_dnia": [
+            "Uruz to runa siły, zdrowia i potencjału. Dziś jej energia sprzyja odnowie i wykorzystaniu wewnętrznej mocy. To idealny czas, aby skupić się na swoim ciele, zdrowiu oraz fizycznej energii, które pomogą Ci w realizacji celów.",
+            "Uruz przypomina, że Twoje zdrowie i siła są fundamentami, na których budujesz swoje życie. Zainwestuj w siebie i swoje dobrostan, aby móc być silniejszym w swoich działaniach.",
+            "Zastanów się, jak możesz wykorzystać swoją fizyczną moc do osiągania zamierzonych celów oraz czerpać radość z życia."
+        ],
+        "refleksja": "Jak mogę wzmocnić swoje zdrowie i fizyczną energię? Jakie zmiany mogę wprowadzić, aby lepiej zadbać o siebie?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Uruz, spisz trzy działania, które możesz podjąć, aby poprawić swoje zdrowie i samopoczucie.",
+            "zdrowie_1": "___________________",
+            "zdrowie_2": "___________________",
+            "zdrowie_3": "___________________",
+            "refleksja_zadania": "Jakie korzyści przyniosą te działania dla mojego ogólnego dobrostanu i energii w życiu?"
+        }
+    },
+    "Wunjo": {
+        "symbol": "ᚹ",
+        "pozycja": 24,
+        "opis_dnia": [
+            "Wunjo to runa radości, harmonii i spełnienia. Dziś przynosi energię pozytywności oraz wspólnoty. To czas, aby świętować osiągnięcia zarówno osobiste, jak i te w interakcjach z innymi.",
+            "Wunjo przypomina, że szczęście jest wzmacniane przez relacje i zgodę w międzyludzkich interakcjach. Skup się na radości i chwili obecnej oraz na tym, co przynosi Ci szczęście.",
+            "Podążaj za tym, co sprawia, że czujesz się spełniony, zarówno w sobie, jak i w relacjach z innymi."
+        ],
+        "refleksja": "Co przynosi mi szczęście i spełnienie? Jak mogę zbudować więcej radości w swoim życiu i relacjach?",
+        "zadanie": {
+            "krótkie_zadanie": "Dziś, pod wpływem runy Wunjo, spisz trzy rzeczy, które przynoszą Ci radość.",
+            "rzecz_1": "___________________",
+            "rzecz_2": "___________________",
+            "rzecz_3": "___________________",
+            "refleksja_zadania": "Jak mogę włączyć te rzeczy do swojego codziennego życia, aby zwiększyć swoje poczucie szczęścia?"
+        }
+    }
+}

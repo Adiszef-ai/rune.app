@@ -1,0 +1,545 @@
+{
+    "Ansuz": {
+        "symbol": "ᚨ",
+        "aett": "Freya",
+        "pozycja": 4,
+        "znaczenie": "Bóstwo (często kojarzone z Odynem), mowa, inspiracja; symbolizuje mądrość oraz moc słowa. Runa przynosząca twórczą myśl i dyplomację.",
+        "symbolika": {
+            "Bóg": "Symbolizuje wyższe bóstwo, reprezentując moc i właściwości władzy słowa.",
+            "Oss": "Oznacza usta, które są narzędziem komunikacji i przekazywania informacji.",
+            "Siła słowa": "Odzwierciedla potęgę komunikacji i możliwości twórczego wyrażania się."
+        },
+        "potencjal": [
+            "Przynosi otwartość umysłu, mądrość oraz talent.",
+            "Pomaga w rozwiązywaniu problemów poprzez słowo i dyplomację.",
+            "Wzmacnia przyjaźnie i pozwala na nawiązywanie nowych znajomości.",
+            "Nagła zmiana poprzez mowę, która przynosi korzystne wyniki."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Ustal harmonię i otwartość w komunikacji w rodzinie.",
+            "Jako Amulet: Służy jako talizman dla twórców, pisarzy i artystów, wspierając ich w pracy.",
+            "W Medytacji: Korzystaj z energii runy do wyciszenia umysłu i rozwiązania konfliktów poprzez szczere rozmowy."
+        ],
+        "dodatkowe_info": "Runa Ansuz sprzyja osobom poszukującym inspiracji i kreatywności, jednak nie znosi kłamstw i manipulacji. Może przynieść kłopotliwe sytuacje, które pomogą ujawnić prawdę."
+    },
+    "Algiz": {
+        "symbol": "ᛉ",
+        "aett": "Tyr",
+        "pozycja": 15,
+        "znaczenie": "Ochrona, obrona, połączenie z wyższymi siłami; symbolizuje wsparcie oraz bezpieczeństwo.",
+        "symbolika": {
+            "Rogi Łosia": "Symbolizują obronność, siłę w obliczu zagrożeń i zdolność do ochrony potomstwa.",
+            "Odcisk Łapy Łabędzia": "Reprezentuje zdolność adaptacji – tak jak łabędź czuje się zarówno w wodzie, jak i na lądzie – wskazuje na wszechstronne możliwości ochronne.",
+            "Człowiek z Wyciągniętymi Ramionami": "Oznacza łączność z energią kosmiczną i boską, która niczym świetlista tarcza chroni, wzmacniając wewnętrzną siłę i witalność."
+        },
+        "potencjal": [
+            "Chroni przed niebezpieczeństwami zarówno zewnętrznymi, jak i wewnętrznymi.",
+            "Wskazuje na sprzyjający czas dla ryzykownych przedsięwzięć, o ile są one budowane na solidnych podstawach.",
+            "Zachęca do podążania za własnymi instynktami, przypominając, że ostrożność i roztropność to najlepsze strażniki.",
+            "Przypomina o konieczności równowagi między emocjami a klarownością umysłu – gdy zachowasz spokój, Twoja intuicja stanie się niezawodnym przewodnikiem."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Umieść Algiz w centralnym punkcie mieszkania lub nad drzwiami wejściowymi, aby wzmocnić ochronę przed negatywnymi wpływami.",
+            "Jako Amulet: Noszenie runy Algiz może pomóc w utrzymaniu równowagi psychicznej, wzmocnić system odpornościowy i dodać odwagi w codziennych wyzwaniach.",
+            "W Medytacji: Wyobraź sobie, że siły wyższe zakładają na Ciebie złoty płaszcz ochronny, który przepuszcza tylko pozytywną energię, zabezpieczając Cię przed wszelkim złem."
+        ],
+        "dodatkowe_info": "Algiz jest runą o niezwykle pozytywnej energii – nawet w odwróconej pozycji jej znaczenie nie zmienia się drastycznie, lecz wskazuje na potrzebę większej uwagi i ostrożności."
+    },
+    "Berkano": {
+        "symbol": "ᛒ",
+        "aett": "Hagal",
+        "pozycja": 18,
+        "znaczenie": "Brzoza, odrodzenie, wzrost; symbolizuje nowe początki i opiekę nad dziećmi.",
+        "symbolika": {
+            "Brzoza": "Symbolizuje narodziny i opiekę, będąc pierwszym drzewem zasiedlającym las po pożarze. Oznacza również duchowe porządki oraz odnowę.",
+            "Gałęzie brzozy": "Reprezentują delikatność i siłę. Nawet silny wiatr nie jest w stanie złamać jej gałęzi, co podkreśla jej symbolikę ochrony.",
+            "Energia kobiecości": "Uosabia różne etapy życia kobiety: od dziecka, przez kochankę, aż do mądrej babci. Zawiera w sobie odwieczną mądrość Ziemi."
+        },
+        "potencjal": [
+            "Chroni przed (wewnętrznymi i zewnętrznymi) niebezpieczeństwami oraz wzmacnia witalność.",
+            "Zapewnia obfitość i pomyślność w życiu, przyspiesza pozytywne wydarzenia.",
+            "Napotyka na trudności w nawiązywaniu relacji przez nieumiejętność pozwolenia na naturalny bieg rzeczy.",
+            "Przypomina o konieczności zrozumienia cyklu życia oraz akceptacji naturalnych zmian."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Umieść Berkano w rejonie wschodnim, aby zapewnić zdrowie oraz w zachodnim sprzężeniu, aby przynieść szczęście dzieciom.",
+            "Jako Amulet: Używaj runy jako amuletu ochronnego dla małych dzieci oraz podczas narodzin.",
+            "W Medytacji: Wyobraź sobie energię kobiecości, która otacza Cię sielankową atmosferą, przynosząc obfitość i spokój."
+        ],
+        "dodatkowe_info": "Berkano to runa, która przyciąga pozytywne zmiany oraz duchowe wsparcie. Jej odwrócona forma symbolizuje blokady, brak radości, czy wyzwania z naturą."
+    },
+    "Dagaz": {
+        "symbol": "ᛞ",
+        "aett": "Tyr",
+        "pozycja": 23,
+        "znaczenie": "Świt, przemiana, nowy początek; symbolizuje nadzieję oraz odnowę.",
+        "symbolika": {
+            "Światło dnia": "Reprezentuje pozytywną energię i potęgę oświecenia, która działa z najwyższego punktu.",
+            "Brzask": "Moment przejścia z nocy w dzień, symbolizujący równowagę między światłem a ciemnością.",
+            "Transformacja": "Zwiastuje nowe możliwości i inicjacje, często dotyczące rozwoju duchowego."
+        },
+        "potencjal": [
+            "Przynosi nadzieję, optymizm i jasne spojrzenie na świat.",
+            "Wspiera transformację świadomości oraz nieprzewidywane pozytywne zmiany.",
+            "Pomaga w osiąganiu celów, zaprasza do korzystania z pojawiających się okazji.",
+            "Wskazuje na korzystny okres dla osobistego rozwoju i inicjatywy."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Powieś Dagaz przy drzwiach lub oknie, aby wzmocnić moc ochronną i przynieść pozytywne energie.",
+            "Jako Amulet: Używaj runy do wspierania projektów życiowych i wzmacniania swojego optymizmu.",
+            "W Medytacji: Medytuj nad Dagaz, aby uzyskać jasność umysłu i otworzyć się na nowe możliwości."
+        ],
+        "dodatkowe_info": "Dagaz jest runą nieodwracalną, sygnalizującą zmiany, które przynoszą pozytywne rezultaty, ale wymaga również gotowości na nowe wyzwania."
+    },
+    "Ehwaz": {
+        "symbol": "ᛖ",
+        "aett": "Tyr",
+        "pozycja": 19,
+        "znaczenie": "Koń, ruch, partnerstwo; symbolizuje dynamizm oraz współpracę.",
+        "symbolika": {
+            "Koń": "Symbolizuje siłę, piękno oraz energię, reprezentując zaufanie między jeźdźcem a koniem.",
+            "Szybkość i zaufanie": "Wskazuje na kontrolowane zmiany i szybki postęp osiągnięty przez harmonijne partnerstwo.",
+            "Harmonia": "Wskazuje na konieczność budowania harmonijnych relacji i dostarczania wsparcia w grupie."
+        },
+        "potencjal": [
+            "Przynosi harmonię w relacjach oraz wzmacnia zaufanie.",
+            "Wskazuje na rychłą zmianę i pozytywne rezultaty w życiu osobistym i zawodowym.",
+            "Pomaga odnaleźć przeznaczenie poprzez partnerstwo i bliskie relacje.",
+            "Wskazuje na szybkie akcje oraz mobilność w podejmowaniu decyzji."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Umieść runę Ehwaz w obszarze partnerstwa, aby wzmocnić relacje i wspólne działania.",
+            "Jako Talizman: Używaj runy dla ochrony w małżeństwie oraz przyciągania przyjaciół.",
+            "W Medytacji: Medytuj nad energią Ehwaz, aby zyskać lepsze zrozumienie współpracy i relacji z innymi."
+        ],
+        "dodatkowe_info": "Runa Ehwaz jest opiekunką sprawiedliwości i prawidłowych relacji. Wskazuje na konieczność lojalności i wsparcia bliskich, a jej negatywne aspekty to zdrada i nielojalność."
+    },
+    "Eihwaz": {
+        "symbol": "ᛇ",
+        "aett": "Hagal",
+        "pozycja": 13,
+        "znaczenie": "Cis (drzewo yew), obrona, transformacja; symbolizuje ochronę oraz ewolucję osobistą.",
+        "symbolika": {
+            "Cis": "Święte drzewo Odyna, symbolizujące moc, ochronę oraz siłę.",
+            "Druga szansa": "Reprezentuje cykl życia i śmierci oraz możliwości odrodzenia.",
+            "Łuk i strzała": "Symbolizuje kontrolowaną siłę oraz zdolności obronne."
+        },
+        "potencjal": [
+            "Sprzyja transformacji oraz rozwojowi osobistemu.",
+            "Daje siłę do pokonywania przeszkód oraz zmiany starych wzorców.",
+            "Wprowadza równowagę emocjonalną i zachęca do wytrwałości.",
+            "Pomaga w poszukiwaniach oraz odkrywaniu cieni podświadomości."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Umieść Eihwaz w zakresie osobistego rozwoju i odrodzenia.",
+            "Jako Talizman: Używaj runy do ochrony przed negatywnymi energiami i lękami.",
+            "W Medytacji: Medytuj nad Eihwaz, aby uzyskać jasność w podejmowaniu decyzji oraz kierowaniu się wewnętrzną mądrością."
+        ],
+        "dodatkowe_info": "Eihwaz funkcjonuje jako brama dla osób poszukujących duchowego rozwoju i mądrości. Jest runą mocno związaną z równowagą, transformacją oraz mądrością."
+    },
+    "Fehu": {
+        "symbol": "ᚠ",
+        "aett": "Freya",
+        "pozycja": 1,
+        "znaczenie": "Bydło, majątek, bogactwo; symbolizuje obfitość i materializm. Oznacza początek pomyślności i dostatku.",
+        "symbolika": {
+            "Bydło": "Symbolizuje bogactwo i dostatek.",
+            "Złote Monety": "Reprezentują sukces finansowy oraz materialny.",
+            "Słońce": "Oznacza obfitość i energię życiową."
+        },
+        "potencjal": [
+            "Sprzyja przyciąganiu bogactwa i sukcesu w życiu osobistym oraz zawodowym.",
+            "Wskazuje na czas, kiedy warto zainwestować w siebie i swoje marzenia.",
+            "Zachęca do korzystania z okazji oraz podejmowania ryzyka w dążeniu do celów.",
+            "Przypomina o znaczeniu równowagi między materializmem a duchowością."
+        ],
+        "praktyczne_zastosowanie": [
+            "W Domu: Umieść Fehu w miejscu, gdzie spędzasz dużo czasu, aby wspierać pozytywne zmiany w swoim życiu.",
+            "Jako Amulet: Noszenie Fehu może pomóc w przyciąganiu bogactwa oraz sukcesu finansowego.",
+            "W Medytacji: Wyobraź sobie siebie jako źródło energii – pełne życia i obfitości – które przyciąga pozytywne zmiany."
+        ],
+        "dodatkowe_info": "Fehu jest runą początku, sprowadza do nas życiodajne siły i materialny dostatek. Jej obecność wskazuje na czas sprzyjający sukcesom finansowym oraz osobistym."
+    },
+    "Gebo": {
+        "symbol": "ᚷ",
+        "aett": "Freya",
+        "pozycja": 7,
+        "znaczenie": "Dar, wymiana, partnerstwo; symbolizuje równowagę w relacjach i współpracę.",
+        "symbolika": {
+            "Prezent": "Symbolizuje wymianę i obdarowywanie, fundamentalne dla miłości.",
+            "Miłość": "Nie przeżył w pełni życia ten, kto nie poznał magii miłości.",
+            "Harmonia": "Runa przypomina o równowadze pomiędzy dawaniem a braniem."
+        },
+        "potencjal": [
+            "Im więcej dasz, tym więcej otrzymasz.",
+            "Harmonia w relacjach partnerskich i przyjacielskich.",
+            "Równowaga pomiędzy dawaniem a braniem we wszystkich aspektach życia.",
+            "Wzmacnia związki oraz czasami wskazuje na konieczność rozstania, jeśli uczucia wygasły."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Umożliwia owocną współpracę i budowanie silnych więzi.",
+            "W obdarowywaniu: Zachęca do odpowiedzialnego dawania oraz przyjmowania darów.",
+            "W rodzinie: Zawieszenie runy w pokoju dziecka przynosi dar miłości i bycia kochanym."
+        ],
+        "dodatkowe_info": "Gebo jest runą równowagi i zjednoczenia, opiekunką osób wykorzystywanych przez innych. Pomoże ustrzec się przed osobami tylko chciwymi na branie."
+    },
+    "Hagalaz": {
+        "symbol": "ᚺ",
+        "aett": "Hagal",
+        "pozycja": 9,
+        "znaczenie": "Grad, zmiana, proces przemiany; symbolizuje trudności, które mogą prowadzić do rozwoju.",
+        "symbolika": {
+            "Grad": "Oznacza wyzwanie, które zmusza do działania.",
+            "Wiedźma": "Hagalaz jest związana z siłą magii i intuicji.",
+            "Przemiana": "Symbolizuje transformację i zmiany w życiu."
+        },
+        "potencjal": [
+            "Nie obawiaj się sytuacji, które wydają się niekorzystne; zaufaj intuicji.",
+            "Hagalaz przynosi kryzys, odrodzenie, niszczenie i tworzenie.",
+            "Jest bramą do podświadomości i przypomina o zaciekawieniu życiem oraz zmianami."
+        ],
+        "praktyczne_zastosowanie": [
+            "W trudnych czasach: Umożliwia przetrwanie kryzysu i odnalezienie nowych ścieżek.",
+            "W transformacji: Zachęca do stawiania czoła wyzwaniom i pielęgnowania marzeń.",
+            "W uzdrawianiu: Pomaga w przepracowywaniu żalu i smutku."
+        ],
+        "dodatkowe_info": "Hagalaz jest silną runą, wymagającą ostrożności w używaniu. Powinna być stosowana krótkoterminowo i usuń wszystko, co przeszkadza w rozwoju."
+    },
+    "Ingwaz": {
+        "symbol": "ᛜ",
+        "aett": "Tyr",
+        "pozycja": 22,
+        "znaczenie": "Ziarno, płodność, zakończenie cyklu; symbolizuje nowe początki oraz spełnienie.",
+        "symbolika": {
+            "Zalążek": "Symbolizuje początek nowych idei i życia.",
+            "Odnawianie": "Oznacza regenerację i wewnętrzny wzrost.",
+            "Kreatywność": "Wyraża siłę twórczą i stan relaksu."
+        },
+        "potencjal": [
+            "Przeszłość jest niezmienna, zaakceptuj ją i żyj tu i teraz.",
+            "Masz teraz możliwość realizacji marzeń, które tkwią w Tobie.",
+            "Projekty i zamierzenia to procesy, które wymagają czasu i bezpieczeństwa."
+        ],
+        "praktyczne_zastosowanie": [
+            "Uwolnienie się od złych nałogów i przekonań.",
+            "Ochrona rodziny i domu.",
+            "Zachęta do koncentrowania się na swoich marzeniach i ich spełnianiu."
+        ],
+        "dodatkowe_info": "Ingwaz jest runą ochronną, skierowaną do wewnątrz, sprzyja dojrzewaniu i wydobywaniu siły oraz pomysłów w bezpiecznym środowisku."
+    },
+    "Isa": {
+        "symbol": "ᛁ",
+        "aett": "Hagal",
+        "pozycja": 11,
+        "znaczenie": "Lód, zatrzymanie, cisza; symbolizuje spokój oraz potrzebę odpoczynku.",
+        "symbolika": {
+            "Medytacja": "Oznacza potrzebę wycofania się i refleksji.",
+            "Zastój": "Symbolizuje blokady i przeszkody.",
+            "Cisza": "Reprezentuje czas, podczas którego życie toczy się w zwolnionym tempie."
+        },
+        "potencjal": [
+            "Wstrzymanie planów i czekanie na lepsze dni.",
+            "Lód runy Izolacji demonstruje koncentrację na ego.",
+            "Energie Isy można wykorzystać do złagodzenia chaosu i impulsywności."
+        ],
+        "praktyczne_zastosowanie": [
+            "Pomaga w wykorzystaniu martwego czasu do refleksji i rozwoju.",
+            "Uczy cierpliwości i planowania.",
+            "Działa wyciszająco, szczególnie w trudnych sytuacjach."
+        ],
+        "dodatkowe_info": "Runa Isa zawsze powinna być brana jako ostrzeżenie. Zmiany nie są natychmiastowe, ale w odpowiednim czasie mogą przynieść korzyść."
+    },
+    "Jera": {
+        "symbol": "ᛃ",
+        "aett": "Hagal",
+        "pozycja": 12,
+        "znaczenie": "Zbiór, rok, płodność, cykl natury; symbolizuje cykle życiowe i sezonowe zmiany.",
+        "symbolika": {
+            "Rok": "Symbolizuje cykl życiowy, obrót czasu i zmiany.",
+            "Żniwa": "Oznacza obfitość i plony wynikające z wcześniejszych działań.",
+            "Cykliczność": "Reprezentuje spirale życia oraz naturalne cykle."
+        },
+        "potencjal": [
+            "Sukces w wysiłkach, owoce wcześniejszych planów.",
+            "Cierpliwość na zbieranie plonów dopiero po ich dojrzeniu.",
+            "Przypomnienie o naturalnym rytmie przyrody i zmianach."
+        ],
+        "praktyczne_zastosowanie": [
+            "Uczy wykorzystania obecnych zasobów i ciągłej pracy nad swoimi celami.",
+            "Zaleca kontemplację cykliczności czasu i zgodę na procesy życiowe.",
+            "Działa jak przypomnienie o zbieraniu owoców swoich wysiłków."
+        ],
+        "dodatkowe_info": "Jera jest runą zmian przychodzących w odpowiednim czasie oraz nagrody za wcześniejsze działania. Zachęca do działania, ale również przypomina o potrzebie cierpliwości."
+    },
+    "Kenaz": {
+        "symbol": "ᚲ",
+        "aett": "Freya",
+        "pozycja": 6,
+        "znaczenie": "Pochodnia, światło, kreatywność; symbolizuje poznanie, wiedzę oraz odkrycia.",
+        "symbolika": {
+            "Ogień": "Związana z namiętnością i elementarną siłą ognia.",
+            "Inspiracja": "Oznacza wizję, olśnienie oraz twórcze zdolności.",
+            "Namiętność": "Symbolizuje gwałtowną miłość i silne uczucia."
+        },
+        "potencjal": [
+            "Wewnętrzny ogień pomaga w transformacji i zdobywaniu doświadczeń.",
+            "Nagłe olśnienie i inspiracja prowadzą do twórczości.",
+            "Jednak wewnętrzny ogień może być niebezpieczny, gdy jest źle kierowany."
+        ],
+        "praktyczne_zastosowanie": [
+            "Runa Kenaz sprzyja twórczości i realizacji pomysłów.",
+            "Działa wspierająco w rozwoju zawodowym i nauce.",
+            "Pomaga w okiełznaniu impulsów i rozwoju wewnętrznej siły."
+        ],
+        "dodatkowe_info": "Kenaz to runa zmian, nowego początku i wewnętrznego ognia. Wymaga świadomego kierowania energią, aby przynosiła pozytywne rezultaty."
+    },
+    "Laguz": {
+        "symbol": "ᛚ",
+        "aett": "Tyr",
+        "pozycja": 21,
+        "znaczenie": "Woda, intuicja, emocje; symbolizuje uczucia oraz intuicyjne zrozumienie.",
+        "symbolika": {
+            "Woda": "Symbolizuje uczucia, intuicję i płyn życia.",
+            "Czucie": "Oznacza umiejętność podążania za nurtem życia.",
+            "Zmienność": "Łączy w sobie elementy płynności, ciągłości i braku kontroli."
+        },
+        "potencjal": [
+            "Woda jest przyjemna, ale bywa też silna i destrukcyjna.",
+            "Pomaga w przełamaniu blokad emocjonalnych.",
+            "Wzmocnienie percepcji i silny głos wewnętrzny."
+        ],
+        "praktyczne_zastosowanie": [
+            "Zachęca do podążania za swoimi uczuciami i głosem intuicji.",
+            "Pomaga w relacjach międzyludzkich i przyciąga pozytywne osoby.",
+            "Oczyszcza organizm i wspomaga zdrowie."
+        ],
+        "dodatkowe_info": "Laguz jest runą inicjacji, która przyciąga nowe możliwości i wspiera decyzje życiowe, zachęcając do odkrywania swoich wewnętrznych pragnień."
+    },
+    "Mannaz": {
+        "symbol": "ᛗ",
+        "aett": "Tyr",
+        "pozycja": 20,
+        "znaczenie": "Człowiek, społeczność, współpraca; symbolizuje jedność i wzajemne wsparcie.",
+        "symbolika": {
+            "Człowieczeństwo": "Reprezentuje przyjaźń, życzliwość i tolerancję.",
+            "Egoizm": "Zawiera aspekty związane z własnym umysłem, ciałem oraz ego.",
+            "Harmonia": "Symbolizuje kreatywność, planowanie oraz współpracę dla ogólnego dobra."
+        },
+        "potencjal": [
+            "Uczy godzenia przeciwieństw i identyfikacji mocnych i słabych stron.",
+            "Zachęca do życia zgodnie z własną naturą i akceptacji doświadczeń.",
+            "Pomaga w integracji z rodziną i tworzeniu harmonijnych relacji."
+        ],
+        "praktyczne_zastosowanie": [
+            "Wspiera pracę nad sobą i rozwijanie pozytywnych relacji z innymi.",
+            "Ułatwia integrację i współpracę w społeczeństwie.",
+            "Działa jako przewodnik w osobistym rozwoju i nauce."
+        ],
+        "dodatkowe_info": "Mannaz to runa równowagi i spokoju wewnętrznego. Pomaga dostrzegać prawdy oraz emocjonalne połączenia z innymi ludźmi."
+    },
+    "Nauthiz": {
+        "symbol": "ᚾ",
+        "aett": "Hagal",
+        "pozycja": 10,
+        "znaczenie": "Potrzeba, ograniczenie, wytrzymałość; symbolizuje przetrwanie w trudnych sytuacjach.",
+        "symbolika": {
+            "Potrzeba": "Oznacza konieczność i brak, z którym musimy się zmierzyć.",
+            "Cierpliwość": "Podkreśla wagę cierpliwości i rozważnego działania.",
+            "Ograniczenia": "Zawiera aspekty niedoli, ograniczeń i strat."
+        },
+        "potencjal": [
+            "Siła realizacji w trudnych warunkach, mobilizująca do działania.",
+            "Podkreślenie znaczenia zrozumienia własnych potrzeb.",
+            "Confrontation of intentions and their realization, pushing for action."
+        ],
+        "praktyczne_zastosowanie": [
+            "Zachęca do refleksji nad swoimi pragnieniami i działaniami.",
+            "Pomaga przezwyciężać trudności i podejmować decyzje.",
+            "Przeznaczona do wskazywania drogi w sytuacjach kryzysowych."
+        ],
+        "dodatkowe_info": "Nauthiz jest runą, która uczy nas, jak radzić sobie z trudami życia i jak zyskać wewnętrzną siłę w obliczu przeciwności."
+    },
+    "Othala": {
+        "symbol": "ᛟ",
+        "aett": "Tyr",
+        "pozycja": 24,
+        "znaczenie": "Dziedzictwo, spadek, własność; symbolizuje przeszłość oraz wartość korzeni.",
+        "symbolika": {
+            "Odziedziczenie": "Oznacza własność rodową i dziedzictwo duchowe oraz materialne.",
+            "Rodzina": "Symbolizuje więzi rodzinne, tradycje oraz wspólne wartości.",
+            "Bezpieczeństwo": "Runa przypomina o ochronie i stworzeniu harmonijnego domu."
+        },
+        "potencjal": [
+            "Runa pomaga w nabyciu gruntów lub nieruchomości oraz w zakończeniu projektów.",
+            "Sprzyja wzrostowi i dobrobytowi, zarówno materialnemu, jak i duchowemu.",
+            "Umożliwia podróże fizyczne i duchowe oraz wspiera więzi rodzinne."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Wzmacnia więzi rodzinne i pomaga w budowaniu wspólnot.",
+            "W domach: Stosowana do ochrony mieszkań i pozyskiwania gruntów.",
+            "W pracy: Wspiera pracujących na roli oraz osoby starsze."
+        ],
+        "dodatkowe_info": "Othala jest opiekunką rodziny, wprowadza harmonię, ciepło i jedność. Jej energia przypomina, że siła i mądrość rodzi się z doświadczenia przodków. Runa wykorzystywana jest do budowania społeczności, harmonii oraz osobistego rozwoju."
+    },
+
+    "Perthro": {
+        "symbol": "ᛈ",
+        "aett": "Hagal",
+        "pozycja": 14,
+        "znaczenie": "Los, tajemnica, niewiadoma; symbolizuje nieprzewidywalność i szansę, jaką niesie życie.",
+        "symbolika": {
+            "Los": "Symbolizuje siłę przeznaczenia oraz ukryte wymiary życia.",
+            "Tajemnica": "Wskazuje na wybory, które musimy podjąć oraz na intuicję.",
+            "Odrodzenie": "Powiązanie z mistycznym ptakiem Feniksem, który odradza się z popiołów."
+        },
+        "potencjal": [
+            "Prawo przyczyny i skutku, prowadzące do ujawnienia tego, co ukryte.",
+            "Nowe początki i przemiany, które wymagają dokonywania wyborów.",
+            "Wewnętrzna mądrość oraz wskazówki, których powinniśmy się nauczyć rozpoznawać."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Może oznaczać powrót do dawnej miłości lub nowe znajomości.",
+            "W zdrowiu: Wzmacnia witalność i dodaje sił życiowych.",
+            "W pracy: Zaczynanie kariery lub odkrywanie nowych możliwości."
+        ],
+        "dodatkowe_info": "Perthro jest runą, która pokazuje celowość naszego pobytu na ziemi, zapowiada duchowy rozwój oraz nowe doznania. Może wskazywać na ukryte sprawy, które zostaną ujawnione. Właściwa praca z tą runą pomoże w przepracowywaniu problemów i przyciąganiu pozytywnych doświadczeń."
+    },
+
+    "Raidho": {
+        "symbol": "ᚱ",
+        "aett": "Freya",
+        "pozycja": 5,
+        "znaczenie": "Podróż, droga, ruch; symbolizuje postęp oraz rytm życia. Wskazuje na przygody i rozwój osobisty.",
+        "symbolika": {
+            "Koło": "Symbolizuje cykliczność zdarzeń i rytm życia.",
+            "Podróż": "Wskazuje na zmiany oraz ruch w życiu.",
+            "Rytm": "Przypomina o powtarzających się cyklach i sposobach działania."
+        },
+        "potencjal": [
+            "Zachęta do działania oraz podejmowania decyzji.",
+            "Symbol Koła Losu – zmiany i postęp.",
+            "Wewnętrzna motywacja do wychodzenia z stagnacji."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Rozwój uczuć, możliwość zaręczyn.",
+            "W zdrowiu: Szybki powrót do zdrowia oraz lepsza kondycja.",
+            "W pracy: Pomyślne zmiany, wyjazdy służbowe i nowe możliwości zawodowe."
+        ],
+        "dodatkowe_info": "Runa Raidho zwraca uwagę na zasady życia wg prawa i porządku. Przypomina, że każdy ruch w życiu ma swój początek i koniec, a rozwój zależy od umiejętności dostosowania się do rytmu cykli. Możliwa do użycia jako talizman w podróżach i w walce o prawa, przynosząca szczęście w finansach."
+    },
+
+    "Sowilo": {
+        "symbol": "ᛊ",
+        "aett": "Hagal",
+        "pozycja": 16,
+        "znaczenie": "Słońce, zwycięstwo, energia; symbolizuje radość oraz sukces.",
+        "symbolika": {
+            "Słońce": "Symbolizuje sukces, optymizm i życie.",
+            "Wzrost": "Reprezentuje pozytywną energię, rozwój i leczenie.",
+            "Siła życia": "Oznacza osiągnięte cele oraz zwycięstwo."
+        },
+        "potencjal": [
+            "Czas aktywnego działania i nieograniczonej energii.",
+            "Siła charakteru, zdolność do nauki i dar zrozumienia.",
+            "Potencjał natchnienia i nadziei, umiejętność dostrzegania prawdziwych wartości."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Symbol ciepła domowego ogniska, wspiera związki.",
+            "W zdrowiu: Wzmacnia i regeneruje siły, poprawia zdrowie.",
+            "W pracy: Sukces, triumf i powodzenie w walce o cele zawodowe."
+        ],
+        "dodatkowe_info": "Sowilo jest runą zwycięstwa, symbolizującą czystość wizji i zwycięstwo światła nad ciemnością. Jej energia wspiera rozwój indywidualny i społeczną charyzmę. Gdy pojawia się w rozkładzie, może zapowiadać sukces, lecz stosując ją, należy zachować ostrożność ze względu na jej moc. Odrzucona siła Sowilo może prowadzić do problemów emocjonalnych oraz stagnacji."
+    },
+
+    "Thurisaz": {
+        "symbol": "ᚦ",
+        "aett": "Freya",
+        "pozycja": 3,
+        "znaczenie": "Olbrzym lub cierń, wyzwania, ochrona; symbolizuje trudności, które mogą być przezwyciężone przez determinację.",
+        "symbolika": {
+            "Cierń": "Reprezentuje wyzwania i przeszkody, które należy przezwyciężyć.",
+            "Olbrzym": "Symbolizuje ogromną siłę i moc, zdolność do obrony.",
+            "Burza": "Oczyszcza atmosferę, wskazuje na emocjonalne wyładowania."
+        },
+        "potencjal": [
+            "Ochrona naturalnego porządku i uwolnienie inspirujących sił.",
+            "Potężna siła do przezwyciężania przeszkód i trudności.",
+            "Edukacyjna moc cierpienia, które pomaga w rozwoju."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Pomoc w przezwyciężaniu problemów i pokonywaniu przeciwności.",
+            "W pracy: Ochrona przed oszustami i trudnościami, wzmacnianie chęci do działania.",
+            "W zdrowiu: Pomaga w покonaniu schorzeń układu nerwowego i emocjonalnego."
+        ],
+        "dodatkowe_info": "Przesłanie runy to potrzeba działania i konfrontowania się z wyzwaniami. Runa Thurisaz symbolizuje równocześnie obronę i atak, mobilizując wewnętrzną siłę i witalność. W pozycji prostej oznacza bezpieczeństwo finansowe oraz pozytywne zmiany, natomiast w pozycji odwróconej może ostrzegać przed niebezpieczeństwami i negatywnymi wpływami."
+    },
+
+    "Tiwaz": {
+        "symbol": "ᛏ",
+        "aett": "Tyr",
+        "pozycja": 17,
+        "znaczenie": "Bóg Tyr, sprawiedliwość, siła wojownika; symbolizuje honor i walkę o słuszność.",
+        "symbolika": {
+            "Sprawiedliwość": "Reprezentuje zasady moralne oraz odpowiedzialność.",
+            "Męstwo": "Oznacza determinację i odwagę w obliczu wyzwań.",
+            "Nowe otoczenie": "Wskazuje na zmiany oraz konieczność dostosowania się."
+        },
+        "potencjal": [
+            "Przenikliwość i przemyślana dokładność.",
+            "Męstwo i gotowość do podejmowania odpowiedzialnych decyzji.",
+            "Współczucie i taktyka w działaniu."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Namiętność, seksualność i płodność.",
+            "W pracy: Stabilna praca, awans oraz osiąganie zaplanowanych celów.",
+            "W zdrowiu: Pomoc w wychodzeniu z choroby i poprawa kondycji fizycznej."
+        ],
+        "dodatkowe_info": "Runa Tiwaz symbolizuje walkę pomiędzy zwycięstwem a porażką, przypominając, że los jest w naszych rękach. Zachęca do działania z odwagą, uczciwością i odpowiedzialnością za własne czyny. W pozycji prostej znak runy oznacza powodzenie w sprawach prawnych i zawodowych, natomiast w pozycji odwróconej wskazuje na nadużycia zaufania i możliwe problemy w relacjach interpersonalnych."
+    },
+
+    "Uruz": {
+        "symbol": "ᚢ",
+        "aett":"Freya",
+        "pozycja":2,
+        "znaczenie": "Byk (aurochs), siła, witalność; symbolizuje moc oraz wytrzymałość. Wskazuje na siłę fizyczną i energię.",
+        "symbolika": {
+            "Tur": "Symbolizuje siłę, niezależność i moc.",
+            "Mżawka": "Oznacza łagodność i orzeźwienie, wpływ na równowagę emocjonalną.",
+            "Przestrzeń": "Miejsce, z którego bierze początek wszystko."
+        },
+        "potencjal": [
+            "Siła pierwotnej energii Fehu, która urzeczywistnia proces tworzenia.",
+            "Zdolność do odnowy, zdrowia i szczęścia.",
+            "Potrzebna pokora do zaakceptowania własnych słabości."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Silny i trwały związek oparty na wsparciu i zrozumieniu.",
+            "W zdrowiu: Pomaga w procesie regeneracji, wzmacnia organizm i podnosi odporność.",
+            "W pracy: Otwiera nowe możliwości, wspiera indywidualizm w dążeniu do celu."
+        ],
+        "dodatkowe_info": "Runa Uruz wzywa do działania i zaprasza do podjęcia wyzwań. Zachęca do rezygnacji z niepotrzebnych rzeczy, aby otworzyć się na nowe możliwości. Runa ta wspiera kreatywność i pomaga w znalezieniu przyczyny problemów. W pozycji prostej zapowiada pozytywne zmiany, a w pozycji odwróconej może wskazywać na zdominowanie przez innych i utratę energii życiowej. Uruz to symbol wewnętrznej siły, która wymaga odpowiedzialności w jej wykorzystywaniu."
+    },
+
+    "Wunjo": {
+        "symbol": "ᚹ",
+        "aett":"Freya",
+        "pozycja":8,
+        "znaczenie": "Radość, harmonia, spełnienie; symbolizuje szczęście i sukces w relacjach międzyludzkich.",
+        "symbolika": {
+            "Wesołość": "Symbolizuje radość, wygraną i przyjemność.",
+            "Przyjaźń": "Wskazuje na wartość prawdziwych przyjaciół oraz harmonię w relacjach.",
+            "Sukces": "Reprezentuje triumf oraz realizację zadań."
+        },
+        "potencjal": [
+            "Uwolnienie energii, radość oraz pozytywne emocje.",
+            "Harmonia w życiu osobistym i społecznym.",
+            "Możliwość cieszenia się z małych rzeczy oraz pełne wykorzystanie radości dnia codziennego."
+        ],
+        "praktyczne_zastosowanie": [
+            "W relacjach: Wspierające i trwałe związki, umiejętność dzielenia się radością.",
+            "W zdrowiu: Wzmocnienie układu odpornościowego i zapobieganie depresji.",
+            "W pracy: Sukcesy zawodowe oraz spełnienie w pracy, która daje radość."
+        ],
+        "dodatkowe_info": "Runa Wunjo zachęca do cieszenia się życiem i odkrywania radości z bliskimi przyjaciółmi. Ostrzega jednak przed pułapkami nadmiernych przyjemności i toksycznymi relacjami. W pozycji prostej oznacza szczęśliwe okoliczności i harmonijne relacje, w pozycji odwróconej natomiast może wskazywać na smutek, pech czy wyobcowanie. Wunjo przypomina, że radość i harmonia to klucze do spełnienia i satysfakcji w życiu."
+    }
+}
