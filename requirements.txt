@@ -2,9 +2,10 @@ python-dotenv==1.0.1
 pandas==2.2.1
 requests==2.31.0 
 openai==1.2.0
-pillow==10.3.0
 streamlit
 Pygments==2.19.1
 mdurl==0.1.2
 markdown-it-py==3.0.0
 rich==14.0.0
+pandasai==2.3.0
+pillow==10.2.0
