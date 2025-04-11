@@ -9,8 +9,6 @@ from supp import losuj_rune, load_main_images, load_full_rune_data
 from models import RunaPelna, Runa
 from constants import COLORS
 import openai
-import json
-import os
 
 
 
@@ -22,7 +20,7 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     """Wyświetla wszystkie runy nordyckie wraz z ich informacjami."""
     st.markdown(
         f"""
-        <h1 style="font-size: 66px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
+        <h1 style="font-size: 53px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
         Runy Nordyckie
         </h1>
         """,
@@ -35,7 +33,7 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
     st.markdown(
         f"""
-        <h1 style="font-size: 45px; font-weight: bold; text-align: center; color: {COLORS['accent']}; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);">
+        <h1 style="font-size: 35px; font-weight: bold; text-align: left; color: {COLORS['accent']};">
         Przeglądaj runy
         </h1>
         """,
@@ -43,88 +41,10 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     )
 
     st.subheader("", divider="rainbow")
-    
-    # Define the base path for rune images
-    base_path = "C:/Users/adito/Desktop/DATA/data_work/rune_app/data/img_rune"
-    
-    # Add custom CSS for the hover effect
-    st.markdown("""
-    <style>
-    .rune-container {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-        border-radius: 15px;
-        box-shadow: 0 4px 15px rgba(193, 71, 233, 0.3);
-        transition: all 0.3s ease;
-    }
-    
-    .rune-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        transition: opacity 1.5s ease;
-    }
-    
-    .rune-image.normal {
-        opacity: 0;
-    }
-    
-    .rune-container:hover .rune-image.normal {
-        opacity: 1;
-    }
-    
-    .rune-container:hover .rune-image.hover {
-        opacity: 0;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    
     for runa in runy:
         st.markdown('<div style="height: 20px;"></div>', unsafe_allow_html=True)
-        
-        # Create columns for layout
-        col1, col2 = st.columns([1, 1])
-        
-        with col1:
-            # Display rune name and basic info
-            st.markdown(
-                f"<h1 style='color: {COLORS['accent']}; font-size: 72px; text-align: center; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);'>{runa.nazwa}</h1>",
-                unsafe_allow_html=True
-            )
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 30px;'>Symbol:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: {COLORS['text']}; font-weight: bold;'>{runa.symbol}</span></p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 30px;'>Aett:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: {COLORS['text']}; font-weight: bold;'>{runa.aett}</span></p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 30px;'>Pozycja:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: {COLORS['text']}; font-weight: bold;'>{runa.pozycja}</span></p>", unsafe_allow_html=True)
-        
-        with col2:
-            # Create the interactive image container
-            normal_image = os.path.join(base_path, f"{runa.nazwa.lower()}.jpg")
-            hover_image = os.path.join(base_path, f"{runa.nazwa.lower()}_1.jpg")
-            
-            if os.path.exists(normal_image) and os.path.exists(hover_image):
-                st.markdown(f"""
-                <div class="rune-container">
-                    <img class="rune-image hover" src="data:image/jpeg;base64,{get_base64_image(hover_image)}" alt="{runa.nazwa}">
-                    <img class="rune-image normal" src="data:image/jpeg;base64,{get_base64_image(normal_image)}" alt="{runa.nazwa}">
-                </div>
-                """, unsafe_allow_html=True)
-            else:
-                st.error(f"Nie można znaleźć obrazów runy: {runa.nazwa}")
-        
-        # Display rune details
-        st.markdown('<div style="height: 20px;"></div>', unsafe_allow_html=True)
-        display_rune_details(runa, show_all=False)
+        display_rune_info(runa)
         st.header("", divider="rainbow")
-
-def get_base64_image(image_path):
-    """Convert image to base64 for HTML display."""
-    import base64
-    with open(image_path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
 
 def display_rune_info(runa: Runa) -> None:
     """Wyświetla szczegółowe informacje o pojedynczej runie."""
@@ -133,7 +53,7 @@ def display_rune_info(runa: Runa) -> None:
     
     with col1:
         st.markdown(
-            f"<h1 style='color: {COLORS['accent']}; font-size: 72px; text-align: center; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);'>{runa.nazwa}</h1>",
+            f"<h1 style='color: {COLORS['accent']}; font-size: 66px;'>{runa.nazwa}</h1>",
             unsafe_allow_html=True
         )
         # Wyświetl symbol, aett i pozycję w pierwszej kolumnie z większą czcionką i przerwą
@@ -191,7 +111,7 @@ def display_rune_of_the_day(runy: list[RunaPelna]) -> None:
     """Wyświetla funkcję runy dnia z pełnym opisem."""
     st.markdown(
         f"""
-        <h1 style="font-size: 60px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
+        <h1 style="font-size: 53px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
         Runa Dnia
         </h1>
         """,
@@ -208,14 +128,14 @@ def display_rune_of_the_day(runy: list[RunaPelna]) -> None:
 
     st.subheader("", divider="rainbow")
 
-    # st.markdown(
-    #     f"""
-    #     <h1 style="font-size: 35px; font-weight: bold; text-align: left; color: {COLORS['accent']};">
-    #     Twoja runa dnia:
-    #     </h1>
-    #     """,
-    #     unsafe_allow_html=True,
-    # )
+    st.markdown(
+        f"""
+        <h1 style="font-size: 35px; font-weight: bold; text-align: left; color: {COLORS['accent']};">
+        Twoja runa dnia:
+        </h1>
+        """,
+        unsafe_allow_html=True,
+    )
     # Display the rune if it exists in session state
     if "Runa dnia" in st.session_state:
         runa = st.session_state["Runa dnia"]
@@ -223,108 +143,24 @@ def display_rune_of_the_day(runy: list[RunaPelna]) -> None:
 
 def display_daily_rune(runa: RunaPelna) -> None:
     """Wyświetla szczegóły runy dnia."""
-    # Load daily rune data
-    with open("data/processed/daily_data_rune.json", "r", encoding="utf-8") as f:
-        daily_data = json.load(f)
-    
-    rune_data = daily_data.get(runa.nazwa, {})
-    
     st.markdown(
         f"""
-        <h1 style="text-align: center; color: {COLORS['accent']}; font-size: 4rem; text-shadow: 0 0 10px rgba(193, 71, 233, 0.5);">
+        <h1 style="text-align: center; color: {COLORS['accent']}; font-size: 4rem;">
         {runa.nazwa}
         </h1>
         """,
         unsafe_allow_html=True,
     )
     st.markdown('<div style="height: 20px;"></div>', unsafe_allow_html=True)
-    
     # Wyświetlanie obrazu
     col_img1, col_img2, col_img3 = st.columns([1, 6, 1])
     with col_img2:
         runa.pokaz_obraz_dnia(size=(800, 800), losowa_orientacja=False)
 
-    # Wyświetlanie szczegółów
+    # Wyświetlanie szczegółów bez symbol, aett i pozycja
     with st.container():
         st.markdown('<div style="height: 40px;"></div>', unsafe_allow_html=True)
-        
-        # Opis dnia
-        if "opis_dnia" in rune_data:
-            st.markdown(f"""
-            <h3 style="color: {COLORS['accent']}; text-align: center; font-size: 32px; margin-bottom: 30px; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);">
-            ✨ Runa dnia ✨
-            </h3>
-            """, unsafe_allow_html=True)
-            st.markdown(f"""
-            <div style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.2) 0%, rgba(193, 71, 233, 0.3) 100%); 
-                        padding: 25px; 
-                        border-radius: 15px; 
-                        margin-bottom: 25px; 
-                        border: 2px solid rgba(193, 71, 233, 0.5);
-                        box-shadow: 0 4px 20px rgba(193, 71, 233, 0.2);">
-                <p style="color: {COLORS['text']}; font-size: 16px; line-height: 1.6;">
-                {' '.join(rune_data["opis_dnia"])}
-                </p>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        # Refleksja
-        if "refleksja" in rune_data:
-            st.markdown(f"""
-            <h3 style="color: {COLORS['accent']}; text-align: center; font-size: 32px; margin-bottom: 30px; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);">
-            🌟 Refleksja 🌟
-            </h3>
-            """, unsafe_allow_html=True)
-            st.markdown(f"""
-            <div style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.2) 0%, rgba(193, 71, 233, 0.3) 100%); 
-                        padding: 25px; 
-                        border-radius: 15px; 
-                        margin-bottom: 25px; 
-                        border: 2px solid rgba(193, 71, 233, 0.5);
-                        box-shadow: 0 4px 20px rgba(193, 71, 233, 0.2);">
-                <p style="color: {COLORS['text']}; font-size: 16px;">{rune_data['refleksja']}</p>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        # Zadanie
-        if "zadanie" in rune_data:
-            st.markdown(f"""
-            <h3 style="color: {COLORS['accent']}; text-align: center; font-size: 32px; margin-bottom: 30px; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);">
-            📝 Zadanie na dziś 📝
-            </h3>
-            """, unsafe_allow_html=True)
-            zadanie = rune_data["zadanie"]
-            
-            # Główny kontener zadania
-            st.markdown(f"""
-            <div style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.2) 0%, rgba(193, 71, 233, 0.3) 100%); 
-                        padding: 25px; 
-                        border-radius: 15px; 
-                        margin-bottom: 25px; 
-                        border: 2px solid rgba(193, 71, 233, 0.5);
-                        box-shadow: 0 4px 20px rgba(193, 71, 233, 0.2);">
-                <p style="color: {COLORS['text']}; font-size: 16px; margin-bottom: 20px;"><strong>{zadanie['krótkie_zadanie']}</strong></p>
-            """, unsafe_allow_html=True)
-            
-            for key, value in zadanie.items():
-                if key not in ["krótkie_zadanie", "refleksja_zadania"]:
-                    st.text_input(
-                        f"✨ {key.replace('_', ' ').title()}:",
-                        value,
-                        key=f"task_{key}",
-                        help="Wpisz swoje przemyślenia tutaj"
-                    )
-            
-            # Refleksja zadania
-            st.markdown(f"""
-                <p style="color: {COLORS['text']}; font-size: 16px; margin-top: 20px; font-style: italic; 
-                   padding: 15px; 
-                   background: linear-gradient(135deg, rgba(147, 51, 234, 0.25) 0%, rgba(193, 71, 233, 0.35) 100%);
-                   border-radius: 10px;
-                   border: 2px solid rgba(193, 71, 233, 0.5);">
-                {zadanie['refleksja_zadania']}
-                </p>
-            """, unsafe_allow_html=True)
+        display_rune_details(runa, show_all=False)
 
 #?##########################################################################################################
 #TODO#######################################################################################################
@@ -334,7 +170,7 @@ def display_rune_layout(runy: list[RunaPelna]) -> None:
     """Wyświetla różne rozkłady runiczne."""
     st.markdown(
         f"""
-        <h1 style="font-size: 60px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
+        <h1 style="font-size: 53px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
         Rozkłady Runiczne
         </h1>
         """,
@@ -346,14 +182,7 @@ def display_rune_layout(runy: list[RunaPelna]) -> None:
     st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
     
     # Main panel buttons for different layouts
-    st.markdown(
-        f"""
-        <h1 style="font-size: 26px; font-weight: bold; text-align: left; color: {COLORS['accent']}; text-shadow: 0 0 10px #C147E9;">
-        Wybierz układ run:
-        </h1>
-        """,
-        unsafe_allow_html=True,
-    )
+    st.markdown("### Wybierz układ run:")
     
     # Create a single row of buttons
     col1, col2, col3, col4 = st.columns(4)
@@ -382,7 +211,6 @@ def display_rune_layout(runy: list[RunaPelna]) -> None:
 def display_uklad_run(uklad: list[RunaPelna]) -> None:
     """Wyświetla wylosowany układ run."""
     st.header("", divider="rainbow")
-    st.caption('"Gdy nadejdzie Ragnarok, to te runy będą miały znaczenie"')
     st.markdown(
         f"""
         <h1 style="font-size: 26px; font-weight: bold; text-align: left; color: {COLORS['accent']}; text-shadow: 0 0 10px #C147E9;">
@@ -433,148 +261,28 @@ def display_uklad_run(uklad: list[RunaPelna]) -> None:
         <div style="background-color: rgba(193, 71, 233, 0.1); padding: 20px; border-radius: 12px; box-shadow: 0 0 10px #C147E9;">
             <p style="color: #FFD700; font-size: 18px; text-align: center;">
             <strong>Układ 8 Run – Krąg Życia</strong><br>
-            Osiem run tworzy pełen cykl: każda runa odsłania inny aspekt twojej ścieżki – od narodzin idei po jej transformację.
+            Osiem run tworzy pełen cykl: każdy znak odsłania inny aspekt twojej ścieżki – od narodzin idei po jej transformację.
             </p>
         </div>
         """, unsafe_allow_html=True)
 
-        # Create a grid layout for the 8-rune spread
-        st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
-        
-        # Top row (empty-1-2-3-empty)
-        col_empty1, col1, col2, col3, col_empty2 = st.columns(5)
-        with col_empty1:
-            st.markdown('<div style="height: 100px;"></div>', unsafe_allow_html=True)
-        
-        with col1:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            odwrocona = uklad[0].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[0].get_nazwa_odwrocona() if odwrocona else uklad[0].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 16px;'>1. Teraz</p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col2:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            odwrocona = uklad[1].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[1].get_nazwa_odwrocona() if odwrocona else uklad[1].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 16px;'>2. Przeszłość</p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col3:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            odwrocona = uklad[2].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[2].get_nazwa_odwrocona() if odwrocona else uklad[2].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 16px;'>3. Przyszłość</p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col_empty2:
-            st.markdown('<div style="height: 100px;"></div>', unsafe_allow_html=True)
-
-        # Middle row (4-description-5)
-        col4, col_desc, col5 = st.columns([1, 3, 1])
-        
-        # Initialize session state for selected rune if not exists
-        if 'selected_rune' not in st.session_state:
-            st.session_state.selected_rune = None
-        
-        with col4:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            if st.button("4. Przeszkody", key="rune4_button", use_container_width=True):
-                st.session_state.selected_rune = uklad[3]
-            odwrocona = uklad[3].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[3].get_nazwa_odwrocona() if odwrocona else uklad[3].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col_desc:
-            if st.session_state.selected_rune:
-                st.markdown(f"""
-                <div style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.2) 0%, rgba(193, 71, 233, 0.3) 100%); 
-                            padding: 25px; 
-                            border-radius: 15px; 
-                            margin: 20px 0; 
-                            border: 2px solid rgba(193, 71, 233, 0.5);
-                            box-shadow: 0 4px 20px rgba(193, 71, 233, 0.2);">
-                    <h3 style="color: {COLORS['accent']}; text-align: center; margin-bottom: 15px;">
-                    {st.session_state.selected_rune.nazwa}
-                    </h3>
-                    <p style="color: {COLORS['text']}; font-size: 16px; line-height: 1.6;">
-                    {st.session_state.selected_rune.znaczenie}
-                    </p>
-                </div>
-                """, unsafe_allow_html=True)
-            else:
-                st.markdown("""
-                <div style="text-align: center; padding: 20px;">
-                    <p style="color: #666; font-style: italic;">
-                    Kliknij na runę, aby zobaczyć jej opis
-                    </p>
-                </div>
-                """, unsafe_allow_html=True)
-        
-        with col5:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            if st.button("5. Wzmocnienia", key="rune5_button", use_container_width=True):
-                st.session_state.selected_rune = uklad[4]
-            odwrocona = uklad[4].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[4].get_nazwa_odwrocona() if odwrocona else uklad[4].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-
-        # Bottom row (empty-6-7-8-empty)
-        col_empty6, col6, col7, col8, col_empty7 = st.columns(5)
-        with col_empty6:
-            st.markdown('<div style="height: 100px;"></div>', unsafe_allow_html=True)
-        
-        with col6:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            odwrocona = uklad[5].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[5].get_nazwa_odwrocona() if odwrocona else uklad[5].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 16px;'>6. Ludzie</p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col7:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            odwrocona = uklad[6].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[6].get_nazwa_odwrocona() if odwrocona else uklad[6].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 16px;'>7. Rada</p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col8:
-            st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-            odwrocona = uklad[7].pokaz_interaktywny_obraz(losowa_orientacja=True)
-            nazwa = uklad[7].get_nazwa_odwrocona() if odwrocona else uklad[7].nazwa
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 16px;'>8. Wynik</p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 14px;'>{nazwa}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col_empty7:
-            st.markdown('<div style="height: 100px;"></div>', unsafe_allow_html=True)
-
     else:
         st.warning("Nieznany układ run – nie mogę zinterpretować.")
-        return
 
-    # For layouts other than 8 runes, display in columns
-    if uklad_len != 8:
-        st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
-        cols = st.columns(uklad_len)
+    # Wyświetl kolumny z runami
+    st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
+    cols = st.columns(uklad_len)
 
-        for i, (col, runa) in enumerate(zip(cols, uklad)):
-            with col:
-                st.markdown('<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">', unsafe_allow_html=True)
-                odwrocona = runa.pokaz_interaktywny_obraz(losowa_orientacja=True)
-                nazwa = runa.get_nazwa_odwrocona() if odwrocona else runa.nazwa
-                st.markdown(
-                    f"<p style='text-align: center; color: {COLORS['accent']}; margin-top: 10px; font-size: 20px;'>{nazwa}</p>",
-                    unsafe_allow_html=True
-                )
-                st.markdown('</div>', unsafe_allow_html=True)
+    for i, (col, runa) in enumerate(zip(cols, uklad)):
+        with col:
+            st.markdown('<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">', unsafe_allow_html=True)
+            odwrocona = runa.pokaz_interaktywny_obraz(losowa_orientacja=True)
+            nazwa = runa.get_nazwa_odwrocona() if odwrocona else runa.nazwa
+            st.markdown(
+                f"<p style='text-align: center; color: {COLORS['accent']}; margin-top: 10px; font-size: 20px;'>{nazwa}</p>",
+                unsafe_allow_html=True
+            )
+            st.markdown('</div>', unsafe_allow_html=True)
 
 
 #?##########################################################################################################
@@ -585,7 +293,7 @@ def display_celtic_cross(runy: list[RunaPelna]) -> None:
     """Wyświetla układ krzyża celtyckiego."""
     st.markdown(
         f"""
-        <h1 style="font-size: 60px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
+        <h1 style="font-size: 53px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
         Krzyż Celtycki
         </h1>
         """,
@@ -600,14 +308,12 @@ def display_celtic_cross(runy: list[RunaPelna]) -> None:
         st.error("Potrzebujesz co najmniej 4 runy do tego układu!")
         return
 
-    if st.button("**Stwórz krzyż celtycki**", use_container_width=True,type="primary"):
+    if st.button("Stwórz krzyż celtycki", type="primary"):
         uklad = random.sample(runy, 4)
         display_celtic_cross_layout(uklad)
         display_celtic_interpretation(uklad)
 
 
-    st.subheader("", divider="rainbow")
-    st.caption('„Wieszczka runiczna jeszcze nie jest gotowa..."')
 def display_celtic_cross_layout(uklad: list[RunaPelna]) -> None:
     """Wizualizacja układu krzyża celtyckiego."""
     st.header("", divider="rainbow")
@@ -761,7 +467,7 @@ def display_centered_image(image, width=None):
     
 #     Format:
 #     ---
-#     �� *{nazwa_runy}*  
+#     🌲 *{nazwa_runy}*  
 #     **Znaczenie dla intencji:** ...  
 #     **Ostrzeżenie:** ...  
 #     **Rytuał:** ...  
