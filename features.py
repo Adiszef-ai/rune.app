@@ -21,7 +21,7 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     """Wyświetla wszystkie runy nordyckie wraz z ich informacjami."""
     st.markdown(
         f"""
-        <h1 style="font-size: 66px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
+        <h1 style="font-size: 53px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
         Runy Nordyckie
         </h1>
         """,
@@ -34,7 +34,7 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
     st.markdown(
         f"""
-        <h1 style="font-size: 45px; font-weight: bold; text-align: center; color: {COLORS['accent']}; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);">
+        <h1 style="font-size: 35px; font-weight: bold; text-align: left; color: {COLORS['accent']};">
         Przeglądaj runy
         </h1>
         """,
@@ -42,88 +42,10 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     )
 
     st.subheader("", divider="rainbow")
-    
-    # Define the base path for rune images
-    base_path = "C:/Users/adito/Desktop/DATA/data_work/rune_app/data/img_rune"
-    
-    # Add custom CSS for the hover effect
-    st.markdown("""
-    <style>
-    .rune-container {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-        border-radius: 15px;
-        box-shadow: 0 4px 15px rgba(193, 71, 233, 0.3);
-        transition: all 0.3s ease;
-    }
-    
-    .rune-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        transition: opacity 1.5s ease;
-    }
-    
-    .rune-image.normal {
-        opacity: 0;
-    }
-    
-    .rune-container:hover .rune-image.normal {
-        opacity: 1;
-    }
-    
-    .rune-container:hover .rune-image.hover {
-        opacity: 0;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    
     for runa in runy:
         st.markdown('<div style="height: 20px;"></div>', unsafe_allow_html=True)
-        
-        # Create columns for layout
-        col1, col2 = st.columns([1, 1])
-        
-        with col1:
-            # Display rune name and basic info
-            st.markdown(
-                f"<h1 style='color: {COLORS['accent']}; font-size: 72px; text-align: center; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);'>{runa.nazwa}</h1>",
-                unsafe_allow_html=True
-            )
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 30px;'>Symbol:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: {COLORS['text']}; font-weight: bold;'>{runa.symbol}</span></p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 30px;'>Aett:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: {COLORS['text']}; font-weight: bold;'>{runa.aett}</span></p>", unsafe_allow_html=True)
-            st.markdown(f"<p style='color: {COLORS['accent']}; font-size: 30px;'>Pozycja:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color: {COLORS['text']}; font-weight: bold;'>{runa.pozycja}</span></p>", unsafe_allow_html=True)
-        
-        with col2:
-            # Create the interactive image container
-            normal_image = os.path.join(base_path, f"{runa.nazwa.lower()}.jpg")
-            hover_image = os.path.join(base_path, f"{runa.nazwa.lower()}_1.jpg")
-            
-            if os.path.exists(normal_image) and os.path.exists(hover_image):
-                st.markdown(f"""
-                <div class="rune-container">
-                    <img class="rune-image hover" src="data:image/jpeg;base64,{get_base64_image(hover_image)}" alt="{runa.nazwa}">
-                    <img class="rune-image normal" src="data:image/jpeg;base64,{get_base64_image(normal_image)}" alt="{runa.nazwa}">
-                </div>
-                """, unsafe_allow_html=True)
-            else:
-                st.error(f"Nie można znaleźć obrazów runy: {runa.nazwa}")
-        
-        # Display rune details
-        st.markdown('<div style="height: 20px;"></div>', unsafe_allow_html=True)
-        display_rune_details(runa, show_all=False)
+        display_rune_info(runa)
         st.header("", divider="rainbow")
-
-def get_base64_image(image_path):
-    """Convert image to base64 for HTML display."""
-    import base64
-    with open(image_path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
 
 def display_rune_info(runa: Runa) -> None:
     """Wyświetla szczegółowe informacje o pojedynczej runie."""
@@ -132,7 +54,7 @@ def display_rune_info(runa: Runa) -> None:
     
     with col1:
         st.markdown(
-            f"<h1 style='color: {COLORS['accent']}; font-size: 72px; text-align: center; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);'>{runa.nazwa}</h1>",
+            f"<h1 style='color: {COLORS['accent']}; font-size: 66px;'>{runa.nazwa}</h1>",
             unsafe_allow_html=True
         )
         # Wyświetl symbol, aett i pozycję w pierwszej kolumnie z większą czcionką i przerwą
@@ -180,7 +102,6 @@ def display_rune_details(runa: Runa, show_all: bool = True) -> None:
                 st.markdown(f"<p style='color: {COLORS['text']};'>▪️ {item}</p>", unsafe_allow_html=True)
         else:
             st.markdown(f"<p style='color: {COLORS['text']};'>{content}</p>", unsafe_allow_html=True)
-    
 
 #?##########################################################################################################
 #TODO#######################################################################################################
