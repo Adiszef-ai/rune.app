@@ -22,7 +22,7 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     """Wyświetla wszystkie runy nordyckie wraz z ich informacjami."""
     st.markdown(
         f"""
-        <h1 style="font-size: 66px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
+        <h1 style="font-size: 53px; font-weight: bold; text-align: center; color: {COLORS['accent']};">
         Runy Nordyckie
         </h1>
         """,
@@ -35,7 +35,7 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
     st.markdown(
         f"""
-        <h1 style="font-size: 45px; font-weight: bold; text-align: center; color: {COLORS['accent']}; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);">
+        <h1 style="font-size: 35px; font-weight: bold; text-align: left; color: {COLORS['accent']};">
         Przeglądaj runy
         </h1>
         """,
@@ -43,7 +43,11 @@ def display_browse_runes(runy: list[RunaPelna]) -> None:
     )
 
     st.subheader("", divider="rainbow")
-    
+    for runa in runy:
+        st.markdown('<div style="height: 20px;"></div>', unsafe_allow_html=True)
+        display_rune_info(runa)
+        st.header("", divider="rainbow")
+
 def display_rune_info(runa: Runa) -> None:
     """Wyświetla szczegółowe informacje o pojedynczej runie."""
     # Górna część z obrazem i nazwą
@@ -51,7 +55,7 @@ def display_rune_info(runa: Runa) -> None:
     
     with col1:
         st.markdown(
-            f"<h1 style='color: {COLORS['accent']}; font-size: 72px; text-align: center; text-shadow: 0 0 5px rgba(193, 71, 233, 0.3);'>{runa.nazwa}</h1>",
+            f"<h1 style='color: {COLORS['accent']}; font-size: 66px;'>{runa.nazwa}</h1>",
             unsafe_allow_html=True
         )
         # Wyświetl symbol, aett i pozycję w pierwszej kolumnie z większą czcionką i przerwą
