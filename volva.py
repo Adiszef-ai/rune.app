@@ -4,7 +4,7 @@ volva.py - Mistyczna wieszczka, która interpretuje runy i udziela magicznych od
 
 import random
 import streamlit as st
-from openai import OpenAI
+import openai
 from typing import Optional, Tuple
 import os
 
@@ -196,9 +196,10 @@ class VolvaMystyczna:
         api_key = st.session_state.get("volva_key")
         if not api_key:
             return "🌙 Potrzebuję klucza API, by wsłuchać się w szept run... 🌙"
-
+        
+        openai.api_key = api_key
+        
         try:
-            client = OpenAI(api_key=api_key)
             prompt = f"""
             Wciel się w Völvę - nordycką wieszczkę, mistyczkę starożytnego świata skandynawskiego.
             Odpowiedz na pytanie użytkownika: '{question}'
@@ -218,52 +219,53 @@ class VolvaMystyczna:
             
             Ogranicz całą odpowiedź do maksymalnie 250 słów.
             """
-
-            response = client.chat.completions.create(
+            
+            response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": "Jesteś Völvą - nordycką wieszczką, posiadającą mistyczną wiedzę run i starej magii."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.85,
-                max_tokens=500
+                temperature=0.85,  # Wyższa temperatura dla bardziej kreatywnych odpowiedzi
+                max_tokens=350
             )
-
-            return response.choices[0].message.content
-
+            
+            return response['choices'][0]['message']['content']
+            
         except Exception as e:
             return f"Runy dzisiaj milczą... (Błąd: {str(e)})"
-
+    
     def _interpret_rune_with_question(self, question: str, runa: RunaPelna, is_reversed: bool) -> str:
         """Interpretuje runę w kontekście zadanego pytania używając OpenAI."""
         api_key = st.session_state.get("volva_key")
         if not api_key:
             return "🔮 Potrzebuję klucza API by odczytać mądrość run..."
-
+        
+        openai.api_key = api_key
+        
         try:
-            client = OpenAI(api_key=api_key)
             prompt = f"""
             Jako Völva, nordycka wieszczka run, zinterpretuj runę {runa.nazwa} 
             w kontekście pytania: '{question}'. 
-
-            {f"Runa jest w pozycji ODWRÓCONEJ, co znacąco zmienia jej energię i przesłanie. W tej pozycji runa {runa.nazwa} może wskazywać na:" if is_reversed else ""}
+            
+            {f"Runa jest w pozycji ODWRÓCONEJ, co znacząco zmienia jej energię i przesłanie. W tej pozycji runa {runa.nazwa} może wskazywać na:" if is_reversed else ""}
             {f"- Przeciwieństwo jej normalnego znaczenia" if is_reversed else ""}
             {f"- Zablokowaną lub stłumioną energię" if is_reversed else ""}
             {f"- Ukryte aspekty jej znaczenia" if is_reversed else ""}
-            {f"- Ostrzeżenie przed niewłaściwym wykorzystaniem energię" if is_reversed else ""}
-
+            {f"- Ostrzeżenie przed niewłaściwym wykorzystaniem energii" if is_reversed else ""}
+            
             Użyj mistycznego języka pełnego nordyckich metafor, symboli natury i odwołań do Yggdrasilu.
-
+            
             Odpowiedź powinna zawierać:
             1. Podstawowe znaczenie runy {runa.nazwa} {f"w pozycji odwróconej" if is_reversed else ""}
             2. Jak energia tej runy łączy się z pytaniem osoby
             3. Jaką mądrość lub przestrogę niesie runa dla pytającego
             4. Subtelną radę lub mini-rytuał, który pomoże pytającemu wykorzystać energię runy
-
+            
             Format: 3-4 krótkie, poetyckie akapity, łącznie maks. 500 słów.
             """
-
-            response = client.chat.completions.create(
+            
+            response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": f"Jesteś Völvą - nordycką wieszczką posiadającą głęboką wiedzę o runie {runa.nazwa}."},
@@ -272,9 +274,9 @@ class VolvaMystyczna:
                 temperature=0.85,
                 max_tokens=500
             )
-
-            return response.choices[0].message.content
-
+            
+            return response['choices'][0]['message']['content']
+            
         except Exception as e:
             return f"Runy milczą... (Błąd: {str(e)})"
 
