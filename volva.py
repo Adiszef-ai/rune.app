@@ -272,7 +272,7 @@ class VolvaMystyczna:
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.85,
-                max_tokens=500
+                max_tokens=350
             )
             
             return response['choices'][0]['message']['content']
