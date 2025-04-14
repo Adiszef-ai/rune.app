@@ -5,10 +5,9 @@
 import random
 import streamlit as st
 from PIL import Image
-from supp import losuj_rune, load_main_images, load_full_rune_data
+from supp import losuj_rune, load_main_images
 from models import RunaPelna, Runa
 from constants import COLORS
-import openai
 import json
 import os
 
@@ -707,72 +706,3 @@ def display_centered_image(image, width=None):
         else:
             st.image(image, use_column_width=True)
 
-
-
-
-    # print(f"Załadowano {len(rune_data)} runy.")
-    # print(f"Przykładowa runa: {rune_data[0]}")  # Wydrukuj przykładową runę, aby zobaczyć, co zawiera lista
-    # runa = random.choice(rune_data)  # rune_data to lista obiektów RunaPelna
-    
-    # # Przygotowujemy szczegóły do interpretacji
-    # interpretacja = runa.interpretacja  # Z 'RunaPelna'
-    # znaczenie = runa.znaczenie  # Z 'RunaPelna'
-    # krotki_opis = runa.krotki_opis  # Krótkie streszczenie runy
-    
-    # # Generujemy odpowiedź z uwzględnieniem pytania użytkownika i pełnych danych o runie
-    # response = f"""
-    # **Wylosowana runa: {runa.nazwa}**
-    
-    # **Krótkie streszczenie:** {krotki_opis}
-    
-    # **Znaczenie:** {znaczenie}
-    
-    # **Interpretacja:** {interpretacja}
-    
-    # **Pytanie użytkownika:** {user_input}
-    # """
-
-    # return response
-
-
-
-
-# def interpret_rune_with_question(user_input, runes, rune_data):
-#     """Losuje runę i interpretuje ją w kontekście pytania użytkownika"""
-#     runa = random.choice(RunaPelna)
-#     jest_odwrocona = runa.pokaz_obraz_dnia(losowa_orientacja=True)
-#     nazwa_runy = runa.get_nazwa_odwrocona() if jest_odwrocona else runa.nazwa
-
-#     # Szukanie danych z JSON-a
-#     dane_runy = next((r for r in rune_data if r.get("nazwa") == runa.nazwa), None)
-#     znaczenie = dane_runy.get("znaczenie", "brak danych") if dane_runy else "brak danych"
-    
-#     # Budowanie promptu
-#     cień_info = "Runa jest odwrócona – interpretuj jako cień znaczenia." if jest_odwrocona else ""
-#     prompt = f"""
-#     Jesteś Volvą, nordycką wieszczką. Udziel odpowiedzi w stylu mistycznym i refleksyjnym.
-    
-#     Użytkownik zadał pytanie: {user_input}
-#     Wylosowana runa: {nazwa_runy}
-#     Znaczenie tej runy to: {znaczenie}
-#     {cień_info}
-
-#     Na podstawie powyższego, udziel odpowiedzi zgodnie z duchem prastarej mądrości run.
-    
-#     Format:
-#     ---
-#     �� *{nazwa_runy}*  
-#     **Znaczenie dla intencji:** ...  
-#     **Ostrzeżenie:** ...  
-#     **Rytuał:** ...  
-#     ---
-#     """
-
-#     response = openai.ChatCompletion.create(
-#         model="gpt-3.5-turbo",
-#         messages=[{"role": "user", "content": prompt}],
-#         temperature=0.85,
-#         max_tokens=500
-#     )
-
-#     return response['choices'][0]['message']['content'].strip()
