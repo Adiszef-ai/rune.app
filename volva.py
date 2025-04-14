@@ -230,7 +230,7 @@ class VolvaMystyczna:
                 max_tokens=500
             )
             
-            return response.choices[0].message.content
+            return response['choices'][0]['message']['content']
             
         except Exception as e:
             return f"Runy dzisiaj milczą... (Błąd: {str(e)})"
@@ -275,7 +275,7 @@ class VolvaMystyczna:
                 max_tokens=500
             )
             
-            return response.choices[0].message.content
+            return response['choices'][0]['message']['content']
             
         except Exception as e:
             return f"Runy milczą... (Błąd: {str(e)})"
