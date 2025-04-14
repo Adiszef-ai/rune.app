@@ -44,12 +44,10 @@ def main():
         display_rune_of_the_day(runy)
 
     elif opcja == "Krzyż celtycki":
-        st.caption('„Wieszczka runiczna jeszcze nie jest gotowa..."')
         display_celtic_cross(runy)
 
     # Wywołanie funkcji układu run
     elif opcja == "Rozkłady Runiczne":
-        st.caption('"Gdy nadejdzie Ragnarok, to te runy będą miały znaczenie"')
         display_rune_layout(runy)
 
     elif opcja == "Völva":
